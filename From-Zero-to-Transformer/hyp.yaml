@@ -1,0 +1,12 @@
+# From zero to Transformer Hyperparameters config file by AI_mzq
+
+batch_size: 4  # How many batches per training step
+context_length: 16  # Length of the token chunk each batch
+d_model: 64  # The size of our model token embeddings
+num_blocks: 8  # Number of transformer blocks
+num_heads: 4  # Number of heads in Multi-head attention
+learning_rate: 1e-3  # 0.001
+dropout: 0.1  # Dropout rate
+max_iters: 5000  # Total of training iterations <- Change this to smaller number for testing
+eval_interval: 50  # How often to evaluate
+eval_iters: 20  # Number of iterations to average for evaluation
