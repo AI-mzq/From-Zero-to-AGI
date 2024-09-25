@@ -9,6 +9,14 @@
 
 该demo是在450Kb的样本教科书数据集 [sample textbook](https://huggingface.co/datasets/goendalf666/sales-textbook_for_convincing_and_selling/raw/main/sales_textbook.txt) 上训练的，模型大小约为51M。
 
+## LLM基础入门系列
+
+- [LLM大模型基础入门系列之：（一）什么是大语言模型？](https://blog.csdn.net/m_aigc2022/article/details/139678783?spm=1001.2014.3001.5502)
+- [LLM大模型基础入门系列之：（二）大模型如何工作](https://blog.csdn.net/m_aigc2022/article/details/139785981?spm=1001.2014.3001.5501)
+- [LLM大模型基础入门系列之：（三）Transformer 架构](https://blog.csdn.net/m_aigc2022/article/details/140025423?spm=1001.2014.3001.5501)
+- [LLM大模型基础入门系列之：（四）从头开始编写LLM代码](https://blog.csdn.net/m_aigc2022/article/details/140086462?spm=1001.2014.3001.5501)
+- [LLM大模型基础入门系列之：（五）手动求解Transformer](https://blog.csdn.net/m_aigc2022/article/details/140260384?spm=1001.2014.3001.5502)
+- [LLM大模型基础入门系列之：（六）Tokens 和 Embeddings](https://blog.csdn.net/m_aigc2022/article/details/140588456?spm=1001.2014.3001.5502)
 
 ## 开始使用
 
@@ -40,6 +48,11 @@ Step: 100 Training Loss: 6.598 Validation Loss: 6.789
 ``` 
 
 随着训练的进行，训练损失将会减少。 5000 次迭代后，训练将停止，损失降至 2.807 左右。该模型将以名称 model-ckpt.pt 保存。
+
+
+| Model Size | Training Loss | Validation Loss |
+| :---: | :---: | :---: |
+| 51M | 2.807 | 2.810 |
 
 然后，将生成一个示例文本，并将其从我们刚刚训练的模型弹出到控制台屏幕，如下所示：
 ```text
