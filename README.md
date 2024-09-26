@@ -5,7 +5,7 @@
 <a href="https://blog.csdn.net/m_aigc2022?type=blog"><img src="https://img.shields.io/badge/猫先生-CSDN-red"></a>
 <a href="https://a1qjvipthnf.feishu.cn/wiki/IQrjw3pxTiVpBRkUZvrcQy0Snnd?from=from_copylink"><img src="https://img.shields.io/badge/AIGCmagic-飞书知识库-lightblue"></a>
 <a href="https://zhihu.com/people/m_aigc2022"><img src="https://img.shields.io/badge/猫先生-知乎-blue"></a>
-<a href="https://github.com/AI-mzq/Interview-for-Algorithm-Engineer.git"><img src="https://img.shields.io/badge/面试面经-black"></a>
+<a href="https://github.com/AI-mzq/Interview-for-Algorithm-Engineer.git"><img src="https://img.shields.io/badge/面试面经-purple"></a>
 <a href="https://wx.zsxq.com/group/48884124114188"><img src="https://img.shields.io/badge/知识星球-Green"></a>
 
 ### 预备知识
