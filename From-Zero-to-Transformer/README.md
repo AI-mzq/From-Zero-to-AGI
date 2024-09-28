@@ -5,7 +5,7 @@
 
 这是一个基于 Transformer 的大型语言模型 (LLM) 训练演示！
 
-受 [nanoGPT](https://github.com/karpathy/nanoGPT) 的启发，并参考 [Transformer-from-scratch](https://github.com/waylandzhang/Transformer-from-scratch.git) 仓库，我编写了这个演示，以展示如何使用 PyTorch 从头开始​​训练 LLM。代码非常简单易懂。对于初学者来说，这是学习如何训练 LLM 的良好起点。
+受 [nanoGPT](https://github.com/karpathy/nanoGPT) 的启发，并参考 Transformer-from-scratch，编写了这个演示，以展示如何使用 PyTorch 从头开始训练 LLM。代码非常简单易懂。对于初学者来说，这是学习如何训练 LLM 的良好起点。
 
 该demo是在450Kb的样本教科书数据集 [sample textbook](https://huggingface.co/datasets/goendalf666/sales-textbook_for_convincing_and_selling/raw/main/sales_textbook.txt) 上训练的，模型大小约为51M。
 
@@ -62,7 +62,6 @@ Encouraging open communication style to customers that their values in the custo
 
 
 ### References
-- [nanoGPT](https://github.com/karpathy/nanoGPT) 
-- [Transformers from Scratch](https://blog.matdmiller.com/posts/2023-06-10_transformers/notebook.html)
+- [nanoGPT](https://github.com/karpathy/nanoGPT)
 - [Attention is all you need](https://arxiv.org/abs/1706.03762) 
 - [Transformer-from-scratch](https://github.com/waylandzhang/Transformer-from-scratch.git) 
