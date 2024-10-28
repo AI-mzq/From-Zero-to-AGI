@@ -1,7 +1,7 @@
 # From-Zero-to-Transformer
 
 #### 从头开始编写 Transformers ！！！
-- v1.0.0
+- v1.0.1
 
 这是一个基于 Transformer 的大型语言模型 (LLM) 训练演示！
 

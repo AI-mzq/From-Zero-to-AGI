@@ -19,6 +19,13 @@
 ### 从零走向 AGI 之旅
 
 - [From-Zero-to-Transformer](From-Zero-to-Transformer/README.md)
+  - [LLM大模型基础入门系列之：（一）什么是大语言模型？](https://blog.csdn.net/m_aigc2022/article/details/139678783?spm=1001.2014.3001.5502)
+  - [LLM大模型基础入门系列之：（二）大模型如何工作](https://blog.csdn.net/m_aigc2022/article/details/139785981?spm=1001.2014.3001.5501)
+  - [LLM大模型基础入门系列之：（三）Transformer 架构](https://blog.csdn.net/m_aigc2022/article/details/140025423?spm=1001.2014.3001.5501)
+  - [LLM大模型基础入门系列之：（四）从头开始编写LLM代码](https://blog.csdn.net/m_aigc2022/article/details/140086462?spm=1001.2014.3001.5501)
+  - [LLM大模型基础入门系列之：（五）手动求解Transformer](https://blog.csdn.net/m_aigc2022/article/details/140260384?spm=1001.2014.3001.5502)
+  - [LLM大模型基础入门系列之：（六）Tokens 和 Embeddings](https://blog.csdn.net/m_aigc2022/article/details/140588456?spm=1001.2014.3001.5502)
+
 - [From-Zero-to-small-T2V](From-Zero-to-small-T2V/README.md)
 
 
