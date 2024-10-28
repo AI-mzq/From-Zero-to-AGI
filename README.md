@@ -38,5 +38,5 @@
 > 
 
 <div align="center">
-    <img src="imgs/img1.png" alt="description" width="640" height="218">
+    <img src="imgs/img1.png" alt="description" width="720" height="218">
 </div>
