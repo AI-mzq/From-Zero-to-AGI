@@ -17,12 +17,14 @@
 ---
 
 ### 预备知识
-| Topic | Link |
-|:----:| ---- |
-| OOP | [Video Link](https://www.youtube.com/watch?v=q2SGW2VgwAM) |
-| Neural Networks Theory |  [Video Link](https://www.youtube.com/watch?v=Jy4wM2X21u0) |
-| GAN Architecture |  [Video Link](https://www.youtube.com/watch?v=TpMIssRdhco) |
-| Python basics |  [Video Link](https://www.youtube.com/watch?v=eWRfhZUzrAc) |
+|         Topic          |                           Link                            |
+|:----------------------:|:---------------------------------------------------------:|
+|          OOP           | [Video Link](https://www.youtube.com/watch?v=q2SGW2VgwAM) |
+| Neural Networks Theory | [Video Link](https://www.youtube.com/watch?v=Jy4wM2X21u0) |
+|    GAN Architecture    | [Video Link](https://www.youtube.com/watch?v=TpMIssRdhco) |
+|     Python basics      | [Video Link](https://www.youtube.com/watch?v=eWRfhZUzrAc) |
+|      向量数据库技术鉴赏（上）      | [Video Link](https://www.bilibili.com/video/BV11a4y1c7SW) |
+|      向量数据库技术鉴赏（下）      | [Video Link](https://www.bilibili.com/video/BV1BM4y177Dk) |
 
 ### 从零走向 AGI 之旅
 
