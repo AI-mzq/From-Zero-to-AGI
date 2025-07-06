@@ -3,6 +3,10 @@
 
 ##### 业余时间发电，您的star是持续更新的最大动力！！!
 
+<p align="center">
+    <img src="https://i.imgur.com/waxVImv.png" alt="from zero to AGI">
+</p>
+
 <a href="https://mp.weixin.qq.com/s/IGLL6_YI9BUeR2KD_Gfx_Q"><img src="https://img.shields.io/badge/魔方AI空间-公众号-green"></a>
 <a href="https://blog.csdn.net/m_aigc2022?type=blog"><img src="https://img.shields.io/badge/猫先生-CSDN-red"></a>
 <a href="https://oizxc9sdhbc.feishu.cn/wiki/FGS5wST0Hiy6xJklyPTcTVOqnAd?from=from_copylink"><img src="https://img.shields.io/badge/AIGCmagic-飞书知识库-lightblue"></a>
@@ -13,12 +17,14 @@
 ---
 
 ### 预备知识
-| Topic | Link |
-|:----:| ---- |
-| OOP | [Video Link](https://www.youtube.com/watch?v=q2SGW2VgwAM) |
-| Neural Networks Theory |  [Video Link](https://www.youtube.com/watch?v=Jy4wM2X21u0) |
-| GAN Architecture |  [Video Link](https://www.youtube.com/watch?v=TpMIssRdhco) |
-| Python basics |  [Video Link](https://www.youtube.com/watch?v=eWRfhZUzrAc) |
+|         Topic          |                           Link                            |
+|:----------------------:|:---------------------------------------------------------:|
+|          OOP           | [Video Link](https://www.youtube.com/watch?v=q2SGW2VgwAM) |
+| Neural Networks Theory | [Video Link](https://www.youtube.com/watch?v=Jy4wM2X21u0) |
+|    GAN Architecture    | [Video Link](https://www.youtube.com/watch?v=TpMIssRdhco) |
+|     Python basics      | [Video Link](https://www.youtube.com/watch?v=eWRfhZUzrAc) |
+|      向量数据库技术鉴赏（上）      | [Video Link](https://www.bilibili.com/video/BV11a4y1c7SW) |
+|      向量数据库技术鉴赏（下）      | [Video Link](https://www.bilibili.com/video/BV1BM4y177Dk) |
 
 ### 从零走向 AGI 
 
