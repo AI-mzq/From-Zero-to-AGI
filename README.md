@@ -29,6 +29,10 @@
 ### 从零走向 AGI 
 
 - AGI入门基础
+  - [AI入门课程](https://oizxc9sdhbc.feishu.cn/wiki/PsH9w5oQdiaPMEkLBKlcYt9Cn9d?from=from_copylink)
+  - [生成式AI入门课程](https://oizxc9sdhbc.feishu.cn/wiki/KQfwwpHZxi4TQOktDOIcRcjLnBg?from=from_copylink)
+  - [微软开源AI Agent入门课程](https://oizxc9sdhbc.feishu.cn/wiki/ZXOFwKzjMioGWOkrdcgcGRFynbf?from=from_copylink)
+  - [微软MCP入门课程](https://oizxc9sdhbc.feishu.cn/wiki/RYNGwUPNqihC1nktRpscRYz9n1C?from=from_copylink)
 
 - 1.1 LLM基础入门
   - [（一）什么是大语言模型？](https://blog.csdn.net/m_aigc2022/article/details/139678783?spm=1001.2014.3001.5502)
