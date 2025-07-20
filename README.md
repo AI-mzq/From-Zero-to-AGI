@@ -65,6 +65,7 @@
   - [首篇MCP全面技术综述：架构、核心组件和工作流程](http://mp.weixin.qq.com/s/73-2fadxpSW2Sda4PFY0TA?token=1471301116&lang=zh_CN)
   - [10个爆款MCP用例，AI集成的未来已经到来？](http://mp.weixin.qq.com/s/bL_97a8uIZROtQ6N9WHRfg?token=1471301116&lang=zh_CN)
   - [一文汇总 30 + MCP Server 及完整源代码](http://mp.weixin.qq.com/s/tsWa140LEZmv8iA6qro_gA?token=1471301116&lang=zh_CN)
+  - [谷歌开源数据库MCP工具箱](#https://oizxc9sdhbc.feishu.cn/wiki/C46fwffW5ifhpmkcprZc0veqn0d?from=from_copylink)
 - 1.7 具身智能
   - [2025具身机器人行业未来展望报告](https://oizxc9sdhbc.feishu.cn/wiki/SgXWw7Ejuis06WkX6DTchGhKnz7?from=from_copylink)
 
