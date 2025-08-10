@@ -47,15 +47,18 @@
   - [一文读懂多模态大模型：LLaVA系列 | 从图像到视频内容理解的进化之路](https://mp.weixin.qq.com/s/Hzg5xqCcpimdtQSB6Mf9WA)
   - [一文搞懂DeepSeek的技术演进之路：大语言模型、视觉语言理解、多模态统一模型](https://mp.weixin.qq.com/s/xYD4eprGvr2aS7lXzGHIuQ)
   - [深度长文｜一文读懂多模态大模型：强化学习技术全面解读 SFT、RLHF、RLAIF、DPO](https://mp.weixin.qq.com/s/T5qsBAXCDhoFOsDbwOF3ow?token=1471301116&lang=zh_CN)
+  
 - 1.3 AI绘画基础入门
   - [AI绘画发展演变系列一：主流模型](https://oizxc9sdhbc.feishu.cn/wiki/GHzAwXXRgiJyh4kxdGDcKri2ntb?from=from_copylink)
+
 - 1.4 AI视频基础入门
   - [AI文生视频提示词创作指南](https://zhuanlan.zhihu.com/p/711848787)
   - [一文梳理「视频生成」技术核心基础知识和模型应用](https://mp.weixin.qq.com/s/KQJF2FxyTiIB62doiBBAzQ)
   - [综述 | 一文掌握Video Diffusion Model视频扩散模型](http://mp.weixin.qq.com/s/k10PHsFTE90ijvGYvbd8ig?token=1471301116&lang=zh_CN)
   
 - 1.5 数字人
-  
+  - [AI数字人概念](https://oizxc9sdhbc.feishu.cn/wiki/TWV7wxl4TiG1vQk6E5TcmtmDnTf?from=from_copylink)
+
 - 1.6 Agent/RAG/MCP
   - [2025年开篇｜AI Agent与多模态大模型：智能革命的新纪元](https://mp.weixin.qq.com/s/93TT88Fize3IBSbidnEJiw?token=1471301116&lang=zh_CN)
   - [2w字长文｜一文深度解析 A2A 与 MCP](https://mp.weixin.qq.com/s/JB6F9LZtGh_e0J1V0ZEtYw)
@@ -65,9 +68,16 @@
   - [首篇MCP全面技术综述：架构、核心组件和工作流程](http://mp.weixin.qq.com/s/73-2fadxpSW2Sda4PFY0TA?token=1471301116&lang=zh_CN)
   - [10个爆款MCP用例，AI集成的未来已经到来？](http://mp.weixin.qq.com/s/bL_97a8uIZROtQ6N9WHRfg?token=1471301116&lang=zh_CN)
   - [一文汇总 30 + MCP Server 及完整源代码](http://mp.weixin.qq.com/s/tsWa140LEZmv8iA6qro_gA?token=1471301116&lang=zh_CN)
-  - [谷歌开源数据库MCP工具箱](#https://oizxc9sdhbc.feishu.cn/wiki/C46fwffW5ifhpmkcprZc0veqn0d?from=from_copylink)
+  - [谷歌开源数据库MCP工具箱](https://oizxc9sdhbc.feishu.cn/wiki/C46fwffW5ifhpmkcprZc0veqn0d?from=from_copylink)
 - 1.7 具身智能
   - [2025具身机器人行业未来展望报告](https://oizxc9sdhbc.feishu.cn/wiki/SgXWw7Ejuis06WkX6DTchGhKnz7?from=from_copylink)
+
+- 1.8 大模型部署系列
+  - [大模型系列：什么是Ray？](http://mp.weixin.qq.com/s/9rAEPrhIDP8brK6phOqa7A?token=667567955&lang=zh_CN)
+  - [大模型系列：NVIDIA Dynamo框架详解——PD分离式部署技术解析](http://mp.weixin.qq.com/s/CVNgin4AFtlziWfkDEr4wQ?token=667567955&lang=zh_CN)
+  - [大模型系列：一文深度解析 Prefill-Decode 分离式部署架构](http://mp.weixin.qq.com/s/cSs4h8r4au9zMkrh60snAw?token=667567955&lang=zh_CN)
+  - [一文梳理主流大模型推理部署框架：vLLM、SGLang、TensorRT-LLM、ollama、XInference](http://mp.weixin.qq.com/s/Fsaz7PAUSiKizl_lw-KSeg?token=667567955&lang=zh_CN)
+  - [一文梳理主流热门智能体框架：Dify、Coze、n8n、AutoGen、LangChain、CrewAI](http://mp.weixin.qq.com/s/5zLnArJcI0TDxL-iiuikPg?token=667567955&lang=zh_CN)
 
 项目实战
 
