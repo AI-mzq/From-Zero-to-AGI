@@ -56,6 +56,7 @@
   - [（四）从头开始编写LLM代码](https://blog.csdn.net/m_aigc2022/article/details/140086462?spm=1001.2014.3001.5501)
   - [（五）手动求解Transformer](https://blog.csdn.net/m_aigc2022/article/details/140260384?spm=1001.2014.3001.5502)
   - [（六）Tokens 和 Embeddings](https://blog.csdn.net/m_aigc2022/article/details/140588456?spm=1001.2014.3001.5502)
+  - [（七）详解MoE模型](http://mp.weixin.qq.com/s/qR6ExUarwvL6jbHK5qy_Rg?token=1354273325&lang=zh_CN)
 
 ### 🔱 多模态基础入门
   - [综述 | 一文读懂多模态大模型（MLLM）](https://mp.weixin.qq.com/s/zsmuJMbUxnqkFnFD3ym-RA)
@@ -84,6 +85,8 @@
   - [10个爆款MCP用例，AI集成的未来已经到来？](http://mp.weixin.qq.com/s/bL_97a8uIZROtQ6N9WHRfg?token=1471301116&lang=zh_CN)
   - [一文汇总 30 + MCP Server 及完整源代码](http://mp.weixin.qq.com/s/tsWa140LEZmv8iA6qro_gA?token=1471301116&lang=zh_CN)
   - [谷歌开源数据库MCP工具箱](https://oizxc9sdhbc.feishu.cn/wiki/C46fwffW5ifhpmkcprZc0veqn0d?from=from_copylink)
+  - [一文梳理主流热门智能体框架：Dify、Coze、n8n、AutoGen、LangChain、CrewAI](http://mp.weixin.qq.com/s/5zLnArJcI0TDxL-iiuikPg?token=667567955&lang=zh_CN)
+  - [一文搞懂大模型时代的Agent：方法论、应用与挑战](http://mp.weixin.qq.com/s/PS1dtUyuRPhby4iBIgMyvw?token=1354273325&lang=zh_CN)
 
 ### 🤖 具身智能
   - [2025具身机器人行业未来展望报告](https://oizxc9sdhbc.feishu.cn/wiki/SgXWw7Ejuis06WkX6DTchGhKnz7?from=from_copylink)
@@ -93,7 +96,7 @@
   - [大模型系列：NVIDIA Dynamo框架详解——PD分离式部署技术解析](http://mp.weixin.qq.com/s/CVNgin4AFtlziWfkDEr4wQ?token=667567955&lang=zh_CN)
   - [大模型系列：一文深度解析 Prefill-Decode 分离式部署架构](http://mp.weixin.qq.com/s/cSs4h8r4au9zMkrh60snAw?token=667567955&lang=zh_CN)
   - [一文梳理主流大模型推理部署框架：vLLM、SGLang、TensorRT-LLM、ollama、XInference](http://mp.weixin.qq.com/s/Fsaz7PAUSiKizl_lw-KSeg?token=667567955&lang=zh_CN)
-  - [一文梳理主流热门智能体框架：Dify、Coze、n8n、AutoGen、LangChain、CrewAI](http://mp.weixin.qq.com/s/5zLnArJcI0TDxL-iiuikPg?token=667567955&lang=zh_CN)
+  - [一文深度全面解析大模型分布式并行策略：DP/TP/PP/CP/EP/SP](http://mp.weixin.qq.com/s/IO9uXMbVTlPvjALRglKWCQ?token=1354273325&lang=zh_CN)
 
 ### 🔨 项目实战
 
