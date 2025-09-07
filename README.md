@@ -89,6 +89,7 @@
   - [一文搞懂大模型时代的Agent：方法论、应用与挑战](http://mp.weixin.qq.com/s/PS1dtUyuRPhby4iBIgMyvw?token=1354273325&lang=zh_CN)
 
 ### 🤖 具身智能
+  - [什么是具身智能](https://www.nvidia.com/en-us/glossary/embodied-ai/)
   - [2025具身机器人行业未来展望报告](https://oizxc9sdhbc.feishu.cn/wiki/SgXWw7Ejuis06WkX6DTchGhKnz7?from=from_copylink)
 
 ### 🚀 大模型部署系列
