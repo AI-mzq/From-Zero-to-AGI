@@ -50,6 +50,7 @@
   - [微软MCP入门课程](https://oizxc9sdhbc.feishu.cn/wiki/RYNGwUPNqihC1nktRpscRYz9n1C?from=from_copylink)
 
 ### 🎇 LLM基础入门
+![大模型时间线.png](./imgs/大模型时间线.png)
   - [（一）什么是大语言模型？](https://blog.csdn.net/m_aigc2022/article/details/139678783?spm=1001.2014.3001.5502)
   - [（二）大模型如何工作](https://blog.csdn.net/m_aigc2022/article/details/139785981?spm=1001.2014.3001.5501)
   - [（三）Transformer 架构](https://blog.csdn.net/m_aigc2022/article/details/140025423?spm=1001.2014.3001.5501)
@@ -59,6 +60,7 @@
   - [（七）详解MoE模型](http://mp.weixin.qq.com/s/qR6ExUarwvL6jbHK5qy_Rg?token=1354273325&lang=zh_CN)
 
 ### 🔱 多模态基础入门
+![多模态架构.png](./imgs/多模态架构.png)
   - [综述 | 一文读懂多模态大模型（MLLM）](https://mp.weixin.qq.com/s/zsmuJMbUxnqkFnFD3ym-RA)
   - [一文读懂多模态大模型：LLaVA系列 | 从图像到视频内容理解的进化之路](https://mp.weixin.qq.com/s/Hzg5xqCcpimdtQSB6Mf9WA)
   - [一文搞懂DeepSeek的技术演进之路：大语言模型、视觉语言理解、多模态统一模型](https://mp.weixin.qq.com/s/xYD4eprGvr2aS7lXzGHIuQ)
