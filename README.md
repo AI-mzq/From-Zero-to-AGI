@@ -27,18 +27,21 @@
 |      向量数据库技术鉴赏（下）      | [Video Link](https://www.bilibili.com/video/BV1BM4y177Dk) |
 
 
+### AGI时代：经典大模型时间线
+![大模型时间线.png](./imgs/大模型时间线.png)
+
 ## 📖目录
 
-- ⭐ [AGI入门基础](#-AGI入门基础)
-- 🎇 [LLM基础入门](#-LLM基础入门)
-- 🔱 [多模态基础入门](#-多模态基础入门)
-- 🎨 [AI绘画基础入门](#-AI绘画基础入门)
-- 🎬 [AI视频基础入门](#-AI视频基础入门)
-- 🌠 [数字人基础入门](#-数字人基础入门)
-- 🎮 [Agent/RAG/MCP](#-Agent/RAG/MCP)
-- 🤖 [具身智能](#-具身智能)
-- 🚀 [大模型部署系列](#-大模型部署系列)
-- 🔨 [项目实战](#-项目实战)
+- ⭐ [AGI入门基础](#01_AGI入门基础)
+- 🎇 [LLM基础入门](#02_LLM基础入门)
+- 🔱 [多模态基础入门](#-03_多模态基础入门)
+- 🎨 [AI绘画基础入门](#-04_AI绘画基础入门)
+- 🎬 [AI视频基础入门](#-05_AI视频基础入门)
+- 🌠 [数字人基础入门](#-06_数字人基础入门)
+- 🎮 [Agent/RAG/MCP](#-07_Agent-RAG-MCP)
+- 🤖 [具身智能](#-08_具身智能)
+- 🚀 [大模型部署系列](#-09_大模型部署系列)
+- 🔨 [项目实战](#-10_项目实战)
 - 💬 [技术交流](技术交流)
 
 ## 从零走向 AGI 
@@ -50,7 +53,7 @@
   - [微软MCP入门课程](https://oizxc9sdhbc.feishu.cn/wiki/RYNGwUPNqihC1nktRpscRYz9n1C?from=from_copylink)
 
 ### 🎇 LLM基础入门
-![大模型时间线.png](./imgs/大模型时间线.png)
+
   - [（一）什么是大语言模型？](https://blog.csdn.net/m_aigc2022/article/details/139678783?spm=1001.2014.3001.5502)
   - [（二）大模型如何工作](https://blog.csdn.net/m_aigc2022/article/details/139785981?spm=1001.2014.3001.5501)
   - [（三）Transformer 架构](https://blog.csdn.net/m_aigc2022/article/details/140025423?spm=1001.2014.3001.5501)
@@ -91,8 +94,11 @@
   - [一文搞懂大模型时代的Agent：方法论、应用与挑战](http://mp.weixin.qq.com/s/PS1dtUyuRPhby4iBIgMyvw?token=1354273325&lang=zh_CN)
 
 ### 🤖 具身智能
+![embodiedAI.png](./imgs/embodiedAI.png)
   - [什么是具身智能](https://www.nvidia.com/en-us/glossary/embodied-ai/)
+  - [万字综述 | 一文带你入门「具身智能」：从基础概念到大模型赋能](https://mp.weixin.qq.com/s/nZw1K5W0d8APJu-Yr9f7vQ?token=237839861&lang=zh_CN)
   - [2025具身机器人行业未来展望报告](https://oizxc9sdhbc.feishu.cn/wiki/SgXWw7Ejuis06WkX6DTchGhKnz7?from=from_copylink)
+  - [基于具身智能的智慧工厂创新应用白皮书](https://t.zsxq.com/P7LrF)
 
 ### 🚀 大模型部署系列
   - [大模型系列：什么是Ray？](http://mp.weixin.qq.com/s/9rAEPrhIDP8brK6phOqa7A?token=667567955&lang=zh_CN)
@@ -103,8 +109,8 @@
 
 ### 🔨 项目实战
 
-- [From-Zero-to-Transformer](From-Zero-to-Transformer/README.md)
-- [From-Zero-to-small-T2V](From-Zero-to-small-T2V/README.md)
+- [From-Zero-to-Transformer](10_项目实战/From-Zero-to-Transformer/README.md)
+- [From-Zero-to-small-T2V](10_项目实战/From-Zero-to-small-T2V/README.md)
 
 
 ### 💬 技术交流
