@@ -14,3 +14,8 @@ PPO作为RLHF的起点，通过裁剪机制和GAE优势函数计算，在策略�
 **目录：**
 
 - [PPO](PPO/readme.md)：近端策略优化算法
+- [DPO](DPO/readme.md)：直接偏好优化算法
+- [GRPO](GRPO/readme.md)：组相对策略优化算法
+- [Dr.GRPO](Dr.GRPO/readme.md)：
+- [DAPO](DAPO/readme.md)：
+- [GSPO](GSPO/readme.md)：
