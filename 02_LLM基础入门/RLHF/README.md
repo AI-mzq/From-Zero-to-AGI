@@ -2,7 +2,7 @@
 
 **原文解读链接🔗：**[一文梳理 RLHF 进化史：从PPO、DPO、GRPO到GSPO](http://mp.weixin.qq.com/s/7QrKR2WqjnGAXdV7lwSPUA?token=496007473&lang=zh_CN)
 
-By：猫先生
+By：猫先生 of 「魔方AI空间」
 
 <div align="center">
 
