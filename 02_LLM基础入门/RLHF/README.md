@@ -2,6 +2,8 @@
 
 **原文解读链接🔗：**[一文梳理 RLHF 进化史：从PPO、DPO、GRPO到GSPO](http://mp.weixin.qq.com/s/7QrKR2WqjnGAXdV7lwSPUA?token=496007473&lang=zh_CN)
 
+By：猫先生
+
 <div align="center">
 
 ![RLHF Evolution](https://img.shields.io/badge/RLHF-算法演进-blue?style=for-the-badge)
