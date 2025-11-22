@@ -1,5 +1,7 @@
 ### 🚀 一文梳理 RLHF 进化史：从 PPO → DPO → GRPO → GSPO
 
+**原文解读链接🔗：**[一文梳理 RLHF 进化史：从PPO、DPO、GRPO到GSPO](http://mp.weixin.qq.com/s/7QrKR2WqjnGAXdV7lwSPUA?token=496007473&lang=zh_CN)
+
 <div align="center">
 
 ![RLHF Evolution](https://img.shields.io/badge/RLHF-算法演进-blue?style=for-the-badge)
@@ -64,7 +66,7 @@
 
 ⭐ ────────────────────────────────────────────────────────────── ⭐
 
-**🎯 每篇文档包含**: 算法原理 · 代码实现 · 实验对比 · 实践指南  
+**🎯 每篇文档包含**: 算法原理 · 代码实现 · 实验对比 · 实践指南等  
 **🚀 适合读者**: 研究者 · 工程师 · 学生 · 技术爱好者
 
 📖 **立即点击上方链接，开始您的RLHF技术探索之旅！**
