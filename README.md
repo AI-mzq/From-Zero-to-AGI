@@ -17,14 +17,15 @@
 ---
 
 ### 预备知识
-|         Topic          |                           Link                            |
-|:----------------------:|:---------------------------------------------------------:|
-|          OOP           | [Video Link](https://www.youtube.com/watch?v=q2SGW2VgwAM) |
-| Neural Networks Theory | [Video Link](https://www.youtube.com/watch?v=Jy4wM2X21u0) |
-|    GAN Architecture    | [Video Link](https://www.youtube.com/watch?v=TpMIssRdhco) |
-|     Python basics      | [Video Link](https://www.youtube.com/watch?v=eWRfhZUzrAc) |
-|      向量数据库技术鉴赏（上）      | [Video Link](https://www.bilibili.com/video/BV11a4y1c7SW) |
-|      向量数据库技术鉴赏（下）      | [Video Link](https://www.bilibili.com/video/BV1BM4y177Dk) |
+
+| 主题领域 | 学习资源 | 难度等级 |
+| :--- | :---: | :---: |
+| 面向对象编程(OOP) | [📺 视频教程](https://www.youtube.com/watch?v=q2SGW2VgwAM) | ⭐⭐ |
+| 神经网络理论 | [📺 视频教程](https://www.youtube.com/watch?v=Jy4wM2X21u0) | ⭐⭐⭐ |
+| GAN架构原理 | [📺 视频教程](https://www.youtube.com/watch?v=TpMIssRdhco) | ⭐⭐⭐⭐ |
+| Python基础 | [📺 视频教程](https://www.youtube.com/watch?v=eWRfhZUzrAc) | ⭐ |
+| 向量数据库技术(上) | [📺 B站教程](https://www.bilibili.com/video/BV11a4y1c7SW) | ⭐⭐⭐ |
+| 向量数据库技术(下) | [📺 B站教程](https://www.bilibili.com/video/BV1BM4y177Dk) | ⭐⭐⭐ |
 
 
 ### AGI时代：经典大模型时间线
