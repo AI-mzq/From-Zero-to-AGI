@@ -1,11 +1,8 @@
 ### 🚀 DAPO算法：解耦裁剪与动态采样的革命性突破 
 
 > **论文标题**: [《DAPO: An Open-Source LLM Reinforcement Learning System at Scale》](https://arxiv.org/pdf/2503.14476)
->
 > **机构**: 字节跳动SIA-Lab × 清华大学AIR联合研发
->
 > **发表时间**: 2025年03月
->
 > **arXiv**: [2503.14476](https://arxiv.org/abs/2503.14476)
 
 ## 🎯 核心突破：重新定义RLHF效率边界 
