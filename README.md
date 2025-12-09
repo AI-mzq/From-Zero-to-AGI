@@ -62,6 +62,7 @@
   - [（五）手动求解Transformer](https://blog.csdn.net/m_aigc2022/article/details/140260384?spm=1001.2014.3001.5502)
   - [（六）Tokens 和 Embeddings](https://blog.csdn.net/m_aigc2022/article/details/140588456?spm=1001.2014.3001.5502)
   - [（七）详解MoE模型](http://mp.weixin.qq.com/s/qR6ExUarwvL6jbHK5qy_Rg?token=1354273325&lang=zh_CN)
+  - [（八）详解位置编码](https://mp.weixin.qq.com/s/t5kTS6iOaH3u6TzfpRv3kQ)
 
 ### 🔱 多模态基础入门
 ![多模态架构.png](./imgs/多模态架构.png)
