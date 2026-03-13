@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  openclaw:
+    build: .
+    # image: from-zero-to-openclaw-openclaw:latest
+    container_name: openclaw_docker_v1
+    privileged: true
+    network_mode: host
+    tmpfs:
+      - /tmp
+      - /run
+      - /run/lock
+    volumes:
+      - /sys/fs/cgroup:/sys/fs/cgroup:rw
+    environment:
+      - Container=docker
+      - FEISHU_APP_ID=${FEISHU_APP_ID}
+      - FEISHU_APP_SECRET=${FEISHU_APP_SECRET}
+      - DOUBAO_API_KEY=${DOUBAO_API_KEY}
+      - GATEWAY_TOKEN=${GATEWAY_TOKEN}
+    ports:
+      - "18789:18789"
+    restart: always
+    command: ["openclaw", "gateway"]
