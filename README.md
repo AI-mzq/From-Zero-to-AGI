@@ -40,7 +40,7 @@
 - 🎬 [AI视频基础入门](#-05_AI视频基础入门)
 - 🌠 [数字人基础入门](#-06_数字人基础入门)
 - 🎮 [Agent/RAG/MCP](#-07_Agent-RAG-MCP)
-- 🤖 [具身智能](#-08_具身智能)
+- 🤖 [具身智能](#08_具身智能)
 - 🚀 [大模型部署系列](#-09_大模型部署系列)
 - 🔨 [项目实战](#-10_项目实战)
 - 💬 [技术交流](技术交流)
@@ -53,7 +53,7 @@
   - [微软开源AI Agent入门课程](https://oizxc9sdhbc.feishu.cn/wiki/ZXOFwKzjMioGWOkrdcgcGRFynbf?from=from_copylink)
   - [微软MCP入门课程](https://oizxc9sdhbc.feishu.cn/wiki/RYNGwUPNqihC1nktRpscRYz9n1C?from=from_copylink)
 
-### 🎇 LLM基础入门
+### 🎇 [点击->LLM基础入门](02_LLM基础入门/README.md)
 
   - [（一）什么是大语言模型？](https://blog.csdn.net/m_aigc2022/article/details/139678783?spm=1001.2014.3001.5502)
   - [（二）大模型如何工作](https://blog.csdn.net/m_aigc2022/article/details/139785981?spm=1001.2014.3001.5501)
@@ -65,7 +65,7 @@
   - [（八）详解位置编码](https://mp.weixin.qq.com/s/t5kTS6iOaH3u6TzfpRv3kQ)
 
 ### 🔱 多模态基础入门
-![多模态架构.png](./imgs/多模态架构.png)
+
   - [综述 | 一文读懂多模态大模型（MLLM）](https://mp.weixin.qq.com/s/zsmuJMbUxnqkFnFD3ym-RA)
   - [一文读懂多模态大模型：LLaVA系列 | 从图像到视频内容理解的进化之路](https://mp.weixin.qq.com/s/Hzg5xqCcpimdtQSB6Mf9WA)
   - [一文搞懂DeepSeek的技术演进之路：大语言模型、视觉语言理解、多模态统一模型](https://mp.weixin.qq.com/s/xYD4eprGvr2aS7lXzGHIuQ)
@@ -95,8 +95,8 @@
   - [一文梳理主流热门智能体框架：Dify、Coze、n8n、AutoGen、LangChain、CrewAI](http://mp.weixin.qq.com/s/5zLnArJcI0TDxL-iiuikPg?token=667567955&lang=zh_CN)
   - [一文搞懂大模型时代的Agent：方法论、应用与挑战](http://mp.weixin.qq.com/s/PS1dtUyuRPhby4iBIgMyvw?token=1354273325&lang=zh_CN)
 
-### 🤖 具身智能
-![embodiedAI.png](./imgs/embodiedAI.png)
+### 🤖 [点击->具身智能](08_具身智能/README.md)
+
   - [什么是具身智能](https://www.nvidia.com/en-us/glossary/embodied-ai/)
   - [万字综述 | 一文带你入门「具身智能」：从基础概念到大模型赋能](https://mp.weixin.qq.com/s/nZw1K5W0d8APJu-Yr9f7vQ?token=237839861&lang=zh_CN)
   - [2025具身机器人行业未来展望报告](https://oizxc9sdhbc.feishu.cn/wiki/SgXWw7Ejuis06WkX6DTchGhKnz7?from=from_copylink)
