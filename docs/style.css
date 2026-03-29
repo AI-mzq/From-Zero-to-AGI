@@ -151,14 +151,12 @@ a {
   gap: 14px;
 }
 
-.brand-mark {
-  width: 14px;
-  height: 14px;
-  border-radius: 4px;
-  background: linear-gradient(135deg, var(--accent), var(--primary-strong));
-  box-shadow:
-    0 0 0 8px rgba(118, 182, 255, 0.08),
-    0 0 24px rgba(114, 243, 255, 0.42);
+.brand-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: drop-shadow(0 0 18px rgba(114, 243, 255, 0.2));
 }
 
 .brand-copy {
@@ -1000,6 +998,11 @@ a {
 
   .hero-copy h1 {
     font-size: 2.65rem;
+  }
+
+  .brand-logo {
+    width: 38px;
+    height: 38px;
   }
 
   .hero-tagline {
