@@ -5,7 +5,7 @@ const siteData = {
       stage: "Stage 01",
       title: "基础认知",
       description: "建立 AI、AGI、编程与问题建模的基础视角，形成后续深入学习的共同语言。",
-      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/main/01_AGI%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80",
+      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/master/01_AGI%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80",
       linkLabel: "查看模块",
       tags: ["AI 入门", "预备知识", "问题意识"]
     },
@@ -14,7 +14,7 @@ const siteData = {
       stage: "Stage 02",
       title: "机器学习",
       description: "从数据、特征、优化与学习范式出发，补足理解大模型之前的统计学习与训练直觉。",
-      link: "https://github.com/AI-mzq/From-Zero-to-AGI/blob/main/README.md",
+      link: "https://github.com/AI-mzq/From-Zero-to-AGI/blob/master/README.md",
       linkLabel: "查看路线",
       tags: ["监督学习", "优化", "训练直觉"]
     },
@@ -23,7 +23,7 @@ const siteData = {
       stage: "Stage 03",
       title: "深度学习",
       description: "通过视觉检测与从零实现模型项目，进入网络结构、训练循环与工程实现层面的真实语境。",
-      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/main/01_AGI%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/YOLO%E7%B3%BB%E5%88%97",
+      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/master/01_AGI%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/YOLO%E7%B3%BB%E5%88%97",
       linkLabel: "查看模块",
       tags: ["YOLO", "PyTorch", "训练循环"]
     },
@@ -32,7 +32,7 @@ const siteData = {
       stage: "Stage 04",
       title: "大语言模型",
       description: "围绕 Transformer、位置编码、RLHF 与从零训练 demo，深入理解 LLM 的核心机制。",
-      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/main/02_LLM%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8",
+      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/master/02_LLM%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8",
       linkLabel: "查看模块",
       tags: ["Transformer", "RLHF", "Position Encoding"]
     },
@@ -41,7 +41,7 @@ const siteData = {
       stage: "Stage 05",
       title: "多模态",
       description: "把文本、图像、视频放进统一视野中，理解感知、对齐与跨模态生成的核心逻辑。",
-      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/main/03_%E5%A4%9A%E6%A8%A1%E6%80%81%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8",
+      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/master/03_%E5%A4%9A%E6%A8%A1%E6%80%81%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8",
       linkLabel: "查看模块",
       tags: ["MLLM", "图像理解", "视频生成"]
     },
@@ -50,7 +50,7 @@ const siteData = {
       stage: "Stage 06",
       title: "Agent / RAG / MCP",
       description: "从检索增强到工具调用与多智能体协作，进入 AI 系统真正开始具备行动性的阶段。",
-      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/main/07_Agent-RAG-MCP",
+      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/master/07_Agent-RAG-MCP",
       linkLabel: "查看模块",
       tags: ["Agent", "RAG", "MCP"]
     },
@@ -59,7 +59,7 @@ const siteData = {
       stage: "Stage 07",
       title: "系统部署",
       description: "关注推理部署、架构拆分、并行策略与工程可用性，让模型从 demo 走向真实系统。",
-      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/main/09_%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2%E7%B3%BB%E5%88%97",
+      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/master/09_%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2%E7%B3%BB%E5%88%97",
       linkLabel: "查看模块",
       tags: ["推理部署", "并行策略", "系统工程"]
     },
@@ -68,7 +68,7 @@ const siteData = {
       stage: "Stage 08",
       title: "AGI / 具身智能",
       description: "从更高层认知与物理世界交互的角度，理解智能体、环境与任务之间的长期演化关系。",
-      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/main/08_%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD",
+      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/master/08_%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD",
       linkLabel: "查看模块",
       tags: ["AGI 认知", "Embodied AI", "长期主义"]
     }
@@ -78,7 +78,7 @@ const siteData = {
       key: "transformer",
       title: "From-Zero-to-Transformer",
       description: "基于 PyTorch 的从零训练示例，覆盖 Transformer 结构理解、训练循环、样本数据与生成过程。",
-      link: "https://github.com/AI-mzq/From-Zero-to-AGI/blob/main/10_%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/From-Zero-to-Transformer/README.md",
+      link: "https://github.com/AI-mzq/From-Zero-to-AGI/blob/master/10_%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/From-Zero-to-Transformer/README.md",
       linkLabel: "查看项目",
       tags: ["PyTorch", "51M Demo", "LLM Training"]
     },
@@ -86,7 +86,7 @@ const siteData = {
       key: "t2v",
       title: "From-Zero-to-small-T2V",
       description: "围绕文生视频的轻量实验，聚焦 GAN 架构、数据生成逻辑与视频生成路径的工程化理解。",
-      link: "https://github.com/AI-mzq/From-Zero-to-AGI/blob/main/10_%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/From-Zero-to-small-T2V/README.md",
+      link: "https://github.com/AI-mzq/From-Zero-to-AGI/blob/master/10_%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/From-Zero-to-small-T2V/README.md",
       linkLabel: "查看项目",
       tags: ["GAN", "Text-to-Video", "Synthetic Data"]
     },
@@ -94,7 +94,7 @@ const siteData = {
       key: "openclaw",
       title: "From-Zero-to-OpenClaw",
       description: "结合 Docker、启动配置与系统集成，体现面向机器人控制与具身方向的工程实践取向。",
-      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/main/10_%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/From-Zero-to-OpenClaw",
+      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/master/10_%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/From-Zero-to-OpenClaw",
       linkLabel: "查看项目",
       tags: ["Docker", "Embodied", "System Integration"]
     }
