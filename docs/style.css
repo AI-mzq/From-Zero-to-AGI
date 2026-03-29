@@ -396,6 +396,7 @@ a {
 .hero-visual {
   position: relative;
   min-height: 520px;
+  padding-top: 34px;
 }
 
 .hero-frame {
@@ -423,6 +424,16 @@ a {
   min-height: 460px;
   object-fit: cover;
   border-radius: 22px;
+}
+
+.hero-frame .hero-image {
+  min-height: 0;
+  aspect-ratio: 1024 / 572;
+  object-fit: contain;
+  object-position: center;
+  background:
+    radial-gradient(circle at top, rgba(114, 243, 255, 0.08), transparent 42%),
+    rgba(6, 11, 22, 0.86);
 }
 
 .hero-orbit {
@@ -474,7 +485,7 @@ a {
 }
 
 .hero-badge-top {
-  top: 22px;
+  top: 0;
   right: 24px;
 }
 
@@ -1010,6 +1021,10 @@ a {
 
   .hero-frame img {
     min-height: 320px;
+  }
+
+  .hero-frame .hero-image {
+    min-height: 0;
   }
 
   .hero-orbit-large,
