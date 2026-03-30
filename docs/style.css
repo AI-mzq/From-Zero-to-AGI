@@ -564,6 +564,11 @@ a {
   gap: 24px;
 }
 
+.panel-large {
+  display: flex;
+  flex-direction: column;
+}
+
 .panel-head h3,
 .author-copy h3,
 .org-card h3,
@@ -589,6 +594,134 @@ a {
 
 .mission-points p {
   margin: 0;
+}
+
+.mission-roadmap {
+  margin: 28px 0 0;
+  padding: 18px;
+  border-radius: 24px;
+  border: 1px solid rgba(132, 168, 255, 0.12);
+  background:
+    radial-gradient(circle at top right, rgba(114, 243, 255, 0.1), transparent 26%),
+    rgba(8, 15, 29, 0.72);
+}
+
+.mission-roadmap figcaption {
+  margin-bottom: 14px;
+  color: var(--accent);
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.mission-roadmap-trigger {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: zoom-in;
+}
+
+.mission-roadmap-trigger:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 6px;
+}
+
+.mission-roadmap img,
+.mission-roadmap-trigger img {
+  width: 100%;
+  border-radius: 18px;
+  border: 1px solid rgba(140, 190, 255, 0.12);
+  box-shadow: var(--shadow-soft);
+}
+
+.mission-roadmap-hint {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 12px;
+  border-radius: 999px;
+  color: #f6fbff;
+  background: rgba(5, 10, 20, 0.78);
+  border: 1px solid rgba(140, 190, 255, 0.16);
+  backdrop-filter: blur(12px);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+body.lightbox-open {
+  overflow: hidden;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.lightbox[hidden] {
+  display: none;
+}
+
+.lightbox-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(3, 8, 18, 0.82);
+  backdrop-filter: blur(10px);
+}
+
+.lightbox-dialog {
+  position: relative;
+  z-index: 1;
+  width: min(1200px, calc(100vw - 40px));
+  max-height: calc(100vh - 40px);
+  padding: 20px;
+  border-radius: 28px;
+  border: 1px solid rgba(132, 168, 255, 0.16);
+  background:
+    radial-gradient(circle at top right, rgba(114, 243, 255, 0.12), transparent 24%),
+    rgba(6, 11, 22, 0.94);
+  box-shadow: var(--shadow);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  min-height: 40px;
+  padding: 0 14px;
+  border: 1px solid rgba(132, 168, 255, 0.16);
+  border-radius: 999px;
+  background: rgba(10, 17, 32, 0.82);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.lightbox-title {
+  margin: 0 72px 16px 0;
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.lightbox-image {
+  display: block;
+  width: 100%;
+  max-height: calc(100vh - 120px);
+  border-radius: 20px;
+  object-fit: contain;
+  background: rgba(3, 7, 16, 0.88);
 }
 
 .panel-stack {
@@ -1088,6 +1221,15 @@ a {
     display: none;
   }
 
+  .mission-roadmap {
+    padding: 14px;
+  }
+
+  .mission-roadmap-hint {
+    right: 12px;
+    bottom: 12px;
+  }
+
   .panel {
     padding: 22px;
   }
@@ -1099,5 +1241,29 @@ a {
   .footer-layout,
   .footer-bottom {
     flex-direction: column;
+  }
+
+  .lightbox {
+    padding: 14px;
+  }
+
+  .lightbox-dialog {
+    width: min(100vw - 20px, 100%);
+    padding: 16px;
+    border-radius: 22px;
+  }
+
+  .lightbox-close {
+    top: 14px;
+    right: 14px;
+  }
+
+  .lightbox-title {
+    margin-right: 64px;
+    font-size: 0.82rem;
+  }
+
+  .lightbox-image {
+    max-height: calc(100vh - 104px);
   }
 }

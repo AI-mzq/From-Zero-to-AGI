@@ -328,6 +328,58 @@ const setupActiveNav = () => {
   sections.forEach((section) => observer.observe(section));
 };
 
+const setupLightbox = () => {
+  const triggers = document.querySelectorAll("[data-lightbox-target]");
+
+  if (!triggers.length) {
+    return;
+  }
+
+  let activeLightbox = null;
+  let lastTrigger = null;
+
+  const closeLightbox = () => {
+    if (!activeLightbox) {
+      return;
+    }
+
+    activeLightbox.hidden = true;
+    document.body.classList.remove("lightbox-open");
+    lastTrigger?.focus();
+    activeLightbox = null;
+  };
+
+  triggers.forEach((trigger) => {
+    const targetId = trigger.getAttribute("data-lightbox-target");
+    const lightbox = document.getElementById(targetId);
+
+    if (!lightbox) {
+      return;
+    }
+
+    const closeNodes = lightbox.querySelectorAll("[data-lightbox-close]");
+    const closeButton = lightbox.querySelector(".lightbox-close");
+
+    trigger.addEventListener("click", () => {
+      lastTrigger = trigger;
+      activeLightbox = lightbox;
+      lightbox.hidden = false;
+      document.body.classList.add("lightbox-open");
+      closeButton?.focus();
+    });
+
+    closeNodes.forEach((node) => {
+      node.addEventListener("click", closeLightbox);
+    });
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeLightbox();
+    }
+  });
+};
+
 syncCardContent(siteData.roadmapItems, "[data-roadmap-key]", "data-roadmap-key");
 syncCardContent(siteData.projectItems, "[data-project-key]", "data-project-key");
 syncSocialLinks();
@@ -336,3 +388,4 @@ setupMenu();
 setupScrollState();
 setupReveal();
 setupActiveNav();
+setupLightbox();

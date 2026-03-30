@@ -26,7 +26,7 @@
           <img class="brand-logo" src="imgs/logo.png" alt="魔方AI空间 Logo">
           <span class="brand-copy">
             <strong>从零走向 AGI</strong>
-            <span>魔方AI空间</span>
+            <span>魔方AI空间@AIGCmagic</span>
           </span>
         </a>
 
@@ -142,6 +142,20 @@
                   <p>将大模型、多模态、Agent、部署与具身智能串联起来，形成持续迭代的 AGI 探索框架。</p>
                 </div>
               </div>
+              <figure class="mission-roadmap">
+                <figcaption>从零走向 AGI 路线图</figcaption>
+                <button
+                  class="mission-roadmap-trigger"
+                  type="button"
+                  data-lightbox-target="roadmap-lightbox"
+                  aria-haspopup="dialog"
+                  aria-controls="roadmap-lightbox"
+                  aria-label="点击放大查看从零走向 AGI 路线图"
+                >
+                  <img src="imgs/from-zero-to-agi-路线图.png" alt="从零走向 AGI 路线图" loading="lazy">
+                  <span class="mission-roadmap-hint">点击放大预览</span>
+                </button>
+              </figure>
             </article>
 
             <article class="panel panel-stack" data-reveal>
@@ -419,6 +433,15 @@
         <span>作者：猫先生</span>
       </div>
     </footer>
+
+    <div class="lightbox" id="roadmap-lightbox" hidden>
+      <div class="lightbox-backdrop" data-lightbox-close></div>
+      <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="roadmap-lightbox-title">
+        <button class="lightbox-close" type="button" data-lightbox-close aria-label="关闭路线图预览">关闭</button>
+        <p class="lightbox-title" id="roadmap-lightbox-title">从零走向 AGI 路线图</p>
+        <img class="lightbox-image" src="imgs/from-zero-to-agi-路线图.png" alt="从零走向 AGI 路线图大图预览">
+      </div>
+    </div>
   </div>
 
   <script src="script.js" defer></script>
