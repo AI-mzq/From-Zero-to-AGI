@@ -350,8 +350,37 @@ a {
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
+  align-items: stretch;
   gap: 14px;
   margin-top: 30px;
+}
+
+.hero-star-panel {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 48px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(132, 168, 255, 0.18);
+  background: rgba(13, 24, 44, 0.74);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+}
+
+.hero-star-label {
+  color: var(--text-soft);
+  font-size: 0.93rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.github-star-button {
+  display: block;
+  width: 170px;
+  height: 30px;
+  border: 0;
+  overflow: hidden;
+  background: transparent;
 }
 
 .hero-stats {
@@ -1011,6 +1040,29 @@ a {
 
   .hero-description {
     font-size: 0.98rem;
+  }
+
+  .hero-actions {
+    align-items: stretch;
+  }
+
+  .hero-actions > * {
+    width: 100%;
+  }
+
+  .hero-star-panel {
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 22px;
+  }
+
+  .hero-star-label {
+    width: 100%;
+    text-align: center;
+  }
+
+  .github-star-button {
+    margin: 0 auto;
   }
 
   .hero-visual {
