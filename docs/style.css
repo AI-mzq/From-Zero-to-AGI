@@ -844,16 +844,13 @@ body.lightbox-open {
 }
 
 .insights-layout {
-  display: grid;
-  grid-template-columns: 0.92fr 1.08fr;
-  gap: 28px;
-  align-items: start;
+  display: block;
 }
 
 .section-heading-sticky {
-  position: sticky;
-  top: calc(var(--header-height) + 28px);
-  margin-bottom: 0;
+  position: static;
+  max-width: none;
+  margin-bottom: 28px;
 }
 
 .insight-list {
@@ -867,7 +864,13 @@ body.lightbox-open {
 
 .insight-cards {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 22px;
+  align-items: start;
+}
+
+.insight-card {
+  height: 100%;
 }
 
 .insight-card img {
@@ -1516,7 +1519,6 @@ body.lightbox-open {
 @media (max-width: 1100px) {
   .hero-layout,
   .mission-grid,
-  .insights-layout,
   .about-grid {
     grid-template-columns: 1fr;
   }
@@ -1532,6 +1534,10 @@ body.lightbox-open {
 
   .section-heading-sticky {
     position: static;
+  }
+
+  .insight-cards {
+    grid-template-columns: 1fr;
   }
 
   .roadmap-grid {
