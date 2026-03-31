@@ -1134,6 +1134,40 @@ body.lightbox-open {
   color: var(--text-soft);
 }
 
+.knowledge-value-card {
+  padding: 22px;
+  border-radius: 20px;
+  border: 1px solid rgba(132, 168, 255, 0.12);
+  background: rgba(9, 16, 30, 0.74);
+  transition: all 0.28s ease;
+}
+
+.knowledge-value-card:hover {
+  border-color: rgba(114, 243, 255, 0.2);
+  box-shadow: 0 8px 24px rgba(114, 243, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.knowledge-value-icon {
+  font-size: 1.8rem;
+  margin-bottom: 14px;
+  display: block;
+}
+
+.knowledge-value-card h4 {
+  margin: 0 0 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.knowledge-value-card p {
+  margin: 0;
+  color: var(--text-soft);
+  line-height: 1.6;
+  font-size: 0.94rem;
+}
+
 .knowledge-value-kicker {
   display: inline-flex;
   align-items: center;

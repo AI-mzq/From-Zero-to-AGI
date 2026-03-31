@@ -301,23 +301,43 @@ const siteData = {
     values: [
       {
         tone: "green",
-        label: "一手资讯",
-        description: "第一时间拿到模型发布、技术架构更新与行业研报，不被动追热点。"
+        label: "系统化学习路径",
+        description: "从基础认知到 AGI 的完整学习路线图，与网站「知识地图」板块呼应，提供更深入的学习资源，帮助你建立结构化的知识体系。"
       },
       {
         tone: "blue",
-        label: "深度解析",
-        description: "不止是信息转发，更强调原理、落地难点与商业逻辑的完整拆解。"
+        label: "前沿动态与深度研报",
+        description: "AI 领域最新进展、技术分析与深度解读，精选高质量内容，避免信息过载，让你快速把握行业脉搏。"
       },
       {
         tone: "orange",
-        label: "实战工具",
-        description: "直接获取 Prompt 框架、部署方案、代码库与企业转型方法。"
+        label: "工程实践与代码示例",
+        description: "从原理到代码的实战项目，包括模型训练、部署等，与网站「工程实践」板块联动，提供更多细节。"
       },
       {
         tone: "violet",
-        label: "社群价值",
-        description: "和同行者共同讨论变化中的模型世界，把判断变成持续迭代的能力。"
+        label: "技术图谱与知识组织",
+        description: "大模型时间线、多模态架构图等可视化知识资产，提供结构化的知识组织方式，帮助你建立全局视野。"
+      },
+      {
+        tone: "green",
+        label: "专家互动与社区支持",
+        description: "与作者及其他专业人士的互动机会，构建高质量的学习社区，解决学习过程中的具体问题。"
+      },
+      {
+        tone: "blue",
+        label: "专属资源与工具",
+        description: "定制化的学习资料、工具脚本、模型权重等星球会员专享资源，提高学习和开发效率。"
+      },
+      {
+        tone: "orange",
+        label: "就业与职业发展",
+        description: "AI 领域职业规划、面试准备、技能提升建议，结合行业需求与技术发展趋势，助力职业发展。"
+      },
+      {
+        tone: "violet",
+        label: "项目实战与案例分析",
+        description: "真实项目案例拆解、问题解决思路，从实际应用角度理解技术价值，培养解决实际问题的能力。"
       }
     ],
     cta: {
@@ -497,10 +517,22 @@ const syncKnowledgePlanet = () => {
   }
 
   if (values) {
+    const icons = {
+      "系统化学习路径": "📚",
+      "前沿动态与深度研报": "📈",
+      "工程实践与代码示例": "💻",
+      "技术图谱与知识组织": "🗺️",
+      "专家互动与社区支持": "👥",
+      "专属资源与工具": "🔧",
+      "就业与职业发展": "🎯",
+      "项目实战与案例分析": "📝"
+    };
+    
     values.innerHTML = section.values
       .map((item) => `
-        <article class="knowledge-value-item is-${item.tone}">
-          <span class="knowledge-value-kicker is-${item.tone}">${escapeHtml(item.label)}</span>
+        <article class="knowledge-value-card is-${item.tone}">
+          <div class="knowledge-value-icon">${icons[item.label] || "📋"}</div>
+          <h4>${escapeHtml(item.label)}</h4>
           <p>${escapeHtml(item.description)}</p>
         </article>
       `)
