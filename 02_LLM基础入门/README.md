@@ -43,7 +43,7 @@ LLM 基本概念
 | 0. 板块导读 | LLM 学习应该从哪里开始？ | [大模型如何工作](https://blog.csdn.net/m_aigc2022/article/details/139785981?spm=1001.2014.3001.5501) | 规划中 |
 | 1. [大语言模型基础概念](01_什么是大语言模型/README.md) | 什么是 LLM？它和传统 NLP 模型有什么区别？ | [什么是大语言模型？](https://blog.csdn.net/m_aigc2022/article/details/139678783?spm=1001.2014.3001.5502) | 已更新 |
 | 2. [Token 与 Embedding](02_Token与Embedding/README.md) | 文本如何变成模型可以计算的向量？ | [Tokens 和 Embeddings](https://blog.csdn.net/m_aigc2022/article/details/140588456?spm=1001.2014.3001.5502) | 已更新 |
-| 3. Transformer 架构核心 | Transformer 为什么成为 LLM 的基础架构？ | [Transformer 架构](https://blog.csdn.net/m_aigc2022/article/details/140025423?spm=1001.2014.3001.5501) | 规划中 |
+| 3. [Transformer 架构核心](03_Transformer架构/README.md) | Transformer 为什么成为 LLM 的基础架构？ | [Transformer 架构](https://blog.csdn.net/m_aigc2022/article/details/140025423?spm=1001.2014.3001.5501) | 已更新 |
 | 4. Attention 机制深入解析 | Q、K、V 和注意力分数到底在算什么？ | [手动求解 Transformer](https://blog.csdn.net/m_aigc2022/article/details/140260384?spm=1001.2014.3001.5502) | 规划中 |
 | 5. [位置编码](位置编码/README.md) | 模型如何理解 Token 的顺序和距离？ | [详解位置编码](https://mp.weixin.qq.com/s/t5kTS6iOaH3u6TzfpRv3kQ) | 已更新 |
 | 6. 典型 LLM 架构演进 | GPT、LLaMA、Qwen、DeepSeek 的结构如何演进？ | 待补充 | 规划中 |
@@ -90,7 +90,7 @@ LLM 不能直接理解自然语言文本，必须先经过 Tokenizer 和 Embeddi
 - 权重共享
 - Token 粒度对上下文长度和推理成本的影响
 
-## 3. Transformer 架构核心
+## 3. [Transformer 架构核心](03_Transformer架构/README.md)
 
 Transformer 是现代 LLM 的主干架构。本章重点理解 Decoder-only LLM 的核心结构。
 
