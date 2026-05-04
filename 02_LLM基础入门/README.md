@@ -41,7 +41,7 @@ LLM 基本概念
 | 模块 | 核心问题 | 解读链接🔗 | 状态 |
 | --- | --- | --- | --- |
 | 0. 板块导读 | LLM 学习应该从哪里开始？ | [大模型如何工作](https://blog.csdn.net/m_aigc2022/article/details/139785981?spm=1001.2014.3001.5501) | 规划中 |
-| 1. 大语言模型基础概念 | 什么是 LLM？它和传统 NLP 模型有什么区别？ | [什么是大语言模型？](https://blog.csdn.net/m_aigc2022/article/details/139678783?spm=1001.2014.3001.5502) | 规划中 |
+| 1. [大语言模型基础概念](01_什么是大语言模型/README.md) | 什么是 LLM？它和传统 NLP 模型有什么区别？ | [什么是大语言模型？](https://blog.csdn.net/m_aigc2022/article/details/139678783?spm=1001.2014.3001.5502) | 已更新 |
 | 2. Token 与 Embedding | 文本如何变成模型可以计算的向量？ | [Tokens 和 Embeddings](https://blog.csdn.net/m_aigc2022/article/details/140588456?spm=1001.2014.3001.5502) | 规划中 |
 | 3. Transformer 架构核心 | Transformer 为什么成为 LLM 的基础架构？ | [Transformer 架构](https://blog.csdn.net/m_aigc2022/article/details/140025423?spm=1001.2014.3001.5501) | 规划中 |
 | 4. Attention 机制深入解析 | Q、K、V 和注意力分数到底在算什么？ | [手动求解 Transformer](https://blog.csdn.net/m_aigc2022/article/details/140260384?spm=1001.2014.3001.5502) | 规划中 |
@@ -68,7 +68,7 @@ LLM 基本概念
 
 建议先建立“输入文本 -> Token -> Embedding -> Transformer Blocks -> logits -> 下一个 Token”的整体链路，再进入各模块细节。
 
-## 1. 大语言模型基础概念
+## 1. [大语言模型基础概念](01_什么是大语言模型/README.md)
 
 本章关注 LLM 的基本定义和技术脉络。
 
