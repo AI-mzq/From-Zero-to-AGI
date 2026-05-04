@@ -44,7 +44,7 @@ LLM 基本概念
 | 1. [大语言模型基础概念](01_什么是大语言模型/README.md) | 什么是 LLM？它和传统 NLP 模型有什么区别？ | [什么是大语言模型？](https://blog.csdn.net/m_aigc2022/article/details/139678783?spm=1001.2014.3001.5502) | 已更新 |
 | 2. [Token 与 Embedding](02_Token与Embedding/README.md) | 文本如何变成模型可以计算的向量？ | [Tokens 和 Embeddings](https://blog.csdn.net/m_aigc2022/article/details/140588456?spm=1001.2014.3001.5502) | 已更新 |
 | 3. [Transformer 架构核心](03_Transformer架构/README.md) | Transformer 为什么成为 LLM 的基础架构？ | [Transformer 架构](https://blog.csdn.net/m_aigc2022/article/details/140025423?spm=1001.2014.3001.5501) | 已更新 |
-| 4. Attention 机制深入解析 | Q、K、V 和注意力分数到底在算什么？ | [手动求解 Transformer](https://blog.csdn.net/m_aigc2022/article/details/140260384?spm=1001.2014.3001.5502) | 规划中 |
+| 4. [Attention 机制深入解析](04_Attention机制/README.md) | Q、K、V 和注意力分数到底在算什么？ | [手动求解 Transformer](https://blog.csdn.net/m_aigc2022/article/details/140260384?spm=1001.2014.3001.5502) | 已更新 |
 | 5. [位置编码](位置编码/README.md) | 模型如何理解 Token 的顺序和距离？ | [详解位置编码](https://mp.weixin.qq.com/s/t5kTS6iOaH3u6TzfpRv3kQ) | 已更新 |
 | 6. 典型 LLM 架构演进 | GPT、LLaMA、Qwen、DeepSeek 的结构如何演进？ | 待补充 | 规划中 |
 | 7. MoE 模型 | 为什么大模型开始大量使用混合专家架构？ | [详解 MoE 模型](http://mp.weixin.qq.com/s/qR6ExUarwvL6jbHK5qy_Rg?token=1354273325&lang=zh_CN) | 规划中 |
@@ -103,7 +103,7 @@ Transformer 是现代 LLM 的主干架构。本章重点理解 Decoder-only LLM 
 - Pre-Norm 与 Post-Norm
 - Decoder-only 架构详解
 
-## 4. Attention 机制深入解析
+## 4. [Attention 机制深入解析](04_Attention机制/README.md)
 
 Attention 是 LLM 的关键计算模块，决定了模型如何在上下文中聚合信息。
 
