@@ -6,6 +6,8 @@
 
 **By：猫先生 of 「魔方AI空间」**
 
+![alt text](../../imgs/魔方AI空间.png)
+
 ## 本章导读
 
 上一章我们从整体上理解了 Transformer 架构：
@@ -609,4 +611,4 @@ Attention 的核心流程可以概括为：
 ---
 
 **上一章：**[Transformer 架构](../03_Transformer架构/README.md)  
-**下一章建议阅读：**[位置编码](../位置编码/README.md)
+**下一章建议阅读：**[位置编码](../05_位置编码/README.md)
