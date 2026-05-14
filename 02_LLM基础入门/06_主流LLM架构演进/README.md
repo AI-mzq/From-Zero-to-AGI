@@ -430,7 +430,7 @@ MoE 模型有多个专家，每个 Token 只激活其中一部分。
 | 推理部署 | 更直接 | 需要专家路由和并行 |
 | 代表模型 | LLaMA、Gemma、Phi | Mixtral、DeepSeek-V3 |
 
-MoE 会在下一章 [MoE 模型](../README.md#7-moe-模型) 中深入展开。
+MoE 会在下一章 [MoE 模型](../07_MoE模型/README.md) 中深入展开。
 
 ## 架构演进中的关键技术
 
@@ -575,4 +575,4 @@ BERT / GPT / T5 确立 Transformer 三条路线
 ---
 
 **上一章：**[位置编码](../05_位置编码/README.md)  
-**下一章建议阅读：**[MoE 模型](../README.md#7-moe-模型)
+**下一章建议阅读：**[MoE 模型](../07_MoE模型/README.md)
