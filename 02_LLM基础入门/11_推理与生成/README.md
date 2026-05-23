@@ -686,4 +686,4 @@ Prompt
 ---
 
 **上一章：**[RLHF](../10_RLHF/README.md)  
-**下一章建议阅读：**[Prompt Engineering](../README.md#12-prompt-engineering)
+**下一章建议阅读：**[Prompt 工程](../12_Prompt工程/README.md)

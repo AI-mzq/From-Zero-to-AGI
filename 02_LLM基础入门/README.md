@@ -52,7 +52,7 @@ LLM 基本概念
 | 9. [指令微调](09_指令微调/README.md) | 模型如何从“会补全文本”变成“会听指令”？ | 待补充 | 已更新 |
 | 10. [RLHF](10_RLHF/README.md) | PPO、DPO、GRPO 等对齐算法如何演进？ | [RLHF 进化史](http://mp.weixin.qq.com/s/7QrKR2WqjnGAXdV7lwSPUA?token=496007473&lang=zh_CN) | 已更新 |
 | 11. [推理与生成基础](11_推理与生成/README.md) | Temperature、Top-p、KV Cache 分别控制什么？ | 待补充 | 已更新 |
-| 12. Prompt Engineering | 如何更稳定地引导 LLM 完成任务？ | 待补充 | 规划中 |
+| 12. [Prompt 工程](12_Prompt工程/README.md) | 如何更稳定地引导 LLM 完成任务？ | 待补充 | 已更新 |
 | 13. LLM 评测体系 | 如何判断一个模型真的更强？ | 待补充 | 规划中 |
 | 14. LLM 应用前置知识 | RAG、Agent、Tool Use、MCP 和 LLM 如何连接？ | [Agent/RAG/MCP 板块](../07_Agent-RAG-MCP/README.md) | 规划中 |
 | 15. 论文与综述阅读 | 哪些论文适合作为 LLM 入门主线？ | 待补充 | 规划中 |
@@ -203,7 +203,7 @@ MoE 是提升模型容量和训练/推理效率的重要路线，DeepSeek、Mixt
 - Prefill 与 Decode
 - 长上下文推理基础
 
-## 12. Prompt Engineering
+## 12. [Prompt 工程](12_Prompt工程/README.md)
 
 Prompt Engineering 是使用 LLM 的基础技能，也是理解 Agent 和 RAG 的前置知识。
 
