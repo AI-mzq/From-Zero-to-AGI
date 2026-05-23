@@ -50,8 +50,8 @@ LLM 基本概念
 | 7. [MoE 模型](07_MoE模型/README.md) | 为什么大模型开始大量使用混合专家架构？ | [详解 MoE 模型](http://mp.weixin.qq.com/s/qR6ExUarwvL6jbHK5qy_Rg?token=1354273325&lang=zh_CN) | 已更新 |
 | 8. [LLM 预训练](08_预训练/README.md) | 大模型是如何从海量语料中学到能力的？ | 待补充 | 已更新 |
 | 9. [指令微调](09_指令微调/README.md) | 模型如何从“会补全文本”变成“会听指令”？ | 待补充 | 已更新 |
-| 10. [RLHF](RLHF/README.md) | PPO、DPO、GRPO 等对齐算法如何演进？ | [RLHF 进化史](http://mp.weixin.qq.com/s/7QrKR2WqjnGAXdV7lwSPUA?token=496007473&lang=zh_CN) | 已更新 |
-| 11. 推理与生成基础 | Temperature、Top-p、KV Cache 分别控制什么？ | 待补充 | 规划中 |
+| 10. [RLHF](10_RLHF/README.md) | PPO、DPO、GRPO 等对齐算法如何演进？ | [RLHF 进化史](http://mp.weixin.qq.com/s/7QrKR2WqjnGAXdV7lwSPUA?token=496007473&lang=zh_CN) | 已更新 |
+| 11. [推理与生成基础](11_推理与生成/README.md) | Temperature、Top-p、KV Cache 分别控制什么？ | 待补充 | 已更新 |
 | 12. Prompt Engineering | 如何更稳定地引导 LLM 完成任务？ | 待补充 | 规划中 |
 | 13. LLM 评测体系 | 如何判断一个模型真的更强？ | 待补充 | 规划中 |
 | 14. LLM 应用前置知识 | RAG、Agent、Tool Use、MCP 和 LLM 如何连接？ | [Agent/RAG/MCP 板块](../07_Agent-RAG-MCP/README.md) | 规划中 |
@@ -175,20 +175,20 @@ MoE 是提升模型容量和训练/推理效率的重要路线，DeepSeek、Mixt
 - RLAIF 与 Constitutional AI
 - 后训练技术趋势
 
-## 10. RLHF
+## 10. [RLHF](10_RLHF/README.md)
 
-已更新：[一文梳理 RLHF 进化史：从 PPO -> DPO -> GRPO -> GSPO](RLHF/README.md)
+已更新：[一文梳理 RLHF 进化史：从 PPO -> DPO -> GRPO -> GSPO](10_RLHF/README.md)
 
 本模块系统梳理对齐算法的演进路径：
 
-- [PPO](RLHF/PPO/readme.md)
-- [DPO](RLHF/DPO/readme.md)
-- [GRPO](RLHF/GRPO/readme.md)
-- [Dr.GRPO](RLHF/Dr.GRPO/readme.md)
-- [DAPO](RLHF/DAPO/readme.md)
-- [GSPO](RLHF/GSPO/readme.md)
+- [PPO](10_RLHF/PPO/readme.md)
+- [DPO](10_RLHF/DPO/readme.md)
+- [GRPO](10_RLHF/GRPO/readme.md)
+- [Dr.GRPO](10_RLHF/Dr.GRPO/readme.md)
+- [DAPO](10_RLHF/DAPO/readme.md)
+- [GSPO](10_RLHF/GSPO/readme.md)
 
-## 11. 推理与生成基础
+## 11. [推理与生成基础](11_推理与生成/README.md)
 
 本章连接模型原理和工程应用，解释为什么相同模型在不同生成参数下表现不同。
 
