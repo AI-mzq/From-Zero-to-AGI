@@ -48,7 +48,7 @@ LLM 基本概念
 | 5. [位置编码](05_位置编码/README.md) | 模型如何理解 Token 的顺序和距离？ | [详解位置编码](https://mp.weixin.qq.com/s/t5kTS6iOaH3u6TzfpRv3kQ) | 已更新 |
 | 6. [主流 LLM 架构演进](06_主流LLM架构演进/README.md) | GPT、LLaMA、Qwen、DeepSeek 的结构如何演进？ | 待补充 | 已更新 |
 | 7. [MoE 模型](07_MoE模型/README.md) | 为什么大模型开始大量使用混合专家架构？ | [详解 MoE 模型](http://mp.weixin.qq.com/s/qR6ExUarwvL6jbHK5qy_Rg?token=1354273325&lang=zh_CN) | 已更新 |
-| 8. LLM 预训练 | 大模型是如何从海量语料中学到能力的？ | 待补充 | 规划中 |
+| 8. [LLM 预训练](08_预训练/README.md) | 大模型是如何从海量语料中学到能力的？ | 待补充 | 已更新 |
 | 9. 指令微调与对齐 | 模型如何从“会补全文本”变成“会听指令”？ | 待补充 | 规划中 |
 | 10. [RLHF](RLHF/README.md) | PPO、DPO、GRPO 等对齐算法如何演进？ | [RLHF 进化史](http://mp.weixin.qq.com/s/7QrKR2WqjnGAXdV7lwSPUA?token=496007473&lang=zh_CN) | 已更新 |
 | 11. 推理与生成基础 | Temperature、Top-p、KV Cache 分别控制什么？ | 待补充 | 规划中 |
@@ -150,7 +150,7 @@ MoE 是提升模型容量和训练/推理效率的重要路线，DeepSeek、Mixt
 - MoE 的训练难点
 - MoE 的推理部署挑战
 
-## 8. LLM 预训练
+## 8. [LLM 预训练](08_预训练/README.md)
 
 预训练决定了基础模型的知识、语言能力和通用表征能力。
 
