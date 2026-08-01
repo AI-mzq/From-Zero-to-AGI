@@ -35,7 +35,7 @@
 
 - ⭐ [AGI入门基础](01_AGI入门基础)
 - 🎇 [LLM基础入门](02_LLM基础入门)
-- 🔱 [多模态基础入门](#-03_多模态基础入门)
+- 🔱 [多模态基础入门](03_多模态基础入门/README.md)
 - 🎨 [AI绘画基础入门](#-04_AI绘画基础入门)
 - 🎬 [AI视频基础入门](#-05_AI视频基础入门)
 - 🌠 [数字人基础入门](#-06_数字人基础入门)
@@ -64,7 +64,7 @@
   - [（七）详解MoE模型](http://mp.weixin.qq.com/s/qR6ExUarwvL6jbHK5qy_Rg?token=1354273325&lang=zh_CN)
   - [（八）详解位置编码](https://mp.weixin.qq.com/s/t5kTS6iOaH3u6TzfpRv3kQ)
 
-### 🔱 多模态基础入门
+### 🔱 [点击->多模态基础入门](03_多模态基础入门/README.md)
 
   - [综述 | 一文读懂多模态大模型（MLLM）](https://mp.weixin.qq.com/s/zsmuJMbUxnqkFnFD3ym-RA)
   - [一文读懂多模态大模型：LLaVA系列 | 从图像到视频内容理解的进化之路](https://mp.weixin.qq.com/s/Hzg5xqCcpimdtQSB6Mf9WA)
