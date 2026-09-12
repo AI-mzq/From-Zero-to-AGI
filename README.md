@@ -18,7 +18,7 @@
 </div>
 
 <div align="center">
-  <img src="./docs/imgs/from-zero-to-agi-路线图.png" alt="从零走向 AGI 学习路线图" width="900" />
+  <img src="./docs/imgs/知识地图.png" alt="从零走向 AGI 学习路线图" width="900" />
 </div>
 
 ---
