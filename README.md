@@ -9,7 +9,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/AI-mzq/From-Zero-to-AGI?style=flat-square&logo=github&label=Stars)](https://github.com/AI-mzq/From-Zero-to-AGI/stargazers)
 [![GitHub last commit](https://img.shields.io/github/last-commit/AI-mzq/From-Zero-to-AGI?style=flat-square&label=Last%20Commit)](https://github.com/AI-mzq/From-Zero-to-AGI/commits/main)
 [![License](https://img.shields.io/github/license/AI-mzq/From-Zero-to-AGI?style=flat-square&label=License)](LICENSE)
-[![公众号](https://img.shields.io/badge/公众号-魔方AI空间-07C160?style=flat-square&logo=wechat&logoColor=white)](https://mp.weixin.qq.com/s/IGLL6_YI9BUeR2KD_Gfx_Q)
+[![公众号](https://img.shields.io/badge/公众号-魔方AI空间-07C160?style=flat-square&logo=wechat&logoColor=white)](./docs/imgs/魔方AI空间.png)
 
 [开始学习](02_LLM基础入门/README.md) · [多模态路线](03_多模态基础入门/README.md) · [项目实战](10_项目实战) · [项目主页](https://ai-mzq.github.io/From-Zero-to-AGI/)
 
@@ -364,12 +364,12 @@ VLM → VLN / VA / VLA → 机器人策略 → 世界模型 → 机器人数据
 
 | 渠道 | 入口 |
 | --- | --- |
-| 微信公众号 | 微信搜索 **魔方AI空间** · [查看公众号代表文章](https://mp.weixin.qq.com/s/IGLL6_YI9BUeR2KD_Gfx_Q) |
+| 微信公众号 | 微信搜索 **魔方AI空间** · [查看公众号代表文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI1MzUyMTMwOA==&action=getalbum&album_id=3676767797507325959#wechat_redirect) |
 | CSDN | [猫先生的技术博客](https://blog.csdn.net/m_aigc2022?type=blog) |
 | 知乎 | [猫先生](https://zhihu.com/people/m_aigc2022) |
 | 飞书知识库 | [AIGCmagic 知识库](https://oizxc9sdhbc.feishu.cn/wiki/FGS5wST0Hiy6xJklyPTcTVOqnAd?from=from_copylink) |
 | 知识星球 | [AIGCmagic 社区](https://wx.zsxq.com/group/48884124114188) |
-| 算法工程师面试 | [Interview for Algorithm Engineer](https://github.com/AI-mzq/Interview-for-Algorithm-Engineer) |
+| 算法工程师面试面经 | [Interview for Algorithm Engineer](https://github.com/WeThinkIn/AIGC-Interview-Book.git) |
 
 ## 💬 反馈与建议
 
