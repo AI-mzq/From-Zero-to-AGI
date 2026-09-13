@@ -269,7 +269,7 @@ RAG 和 Agent 是 LLM 应用落地的两条重要路线。
 | [ReAct](https://arxiv.org/abs/2210.03629) | Agent | 推理和行动交替，是 Agent Prompt 的经典框架 |
 | [A Survey on Large Language Model based Autonomous Agents](https://link.springer.com/article/10.1007/s11704-024-40231-1) | 综述 | Agent 架构、记忆、规划、工具和评测 |
 
-这部分建议与本项目的 [Agent/RAG/MCP 板块](../../07_Agent-RAG-MCP/README.md) 联动阅读。
+这部分建议与本项目的 [Agent](../../07_Agent/README.md) 板块联动阅读。
 
 ## 第十层：推理系统与部署
 

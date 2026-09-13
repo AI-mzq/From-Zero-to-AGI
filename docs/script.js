@@ -32,7 +32,7 @@ const siteData = {
       stage: "Stage 04",
       title: "大语言模型",
       description: "围绕 Transformer、位置编码、RLHF 与从零训练 demo，深入理解 LLM 的核心机制。",
-      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/master/02_LLM%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8",
+      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/master/02_%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80",
       linkLabel: "查看模块",
       tags: ["Transformer", "RLHF", "Position Encoding"]
     },
@@ -41,25 +41,25 @@ const siteData = {
       stage: "Stage 05",
       title: "多模态",
       description: "把文本、图像、视频放进统一视野中，理解感知、对齐与跨模态生成的核心逻辑。",
-      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/master/03_%E5%A4%9A%E6%A8%A1%E6%80%81%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8",
+      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/master/03_%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80",
       linkLabel: "查看模块",
       tags: ["MLLM", "图像理解", "视频生成"]
     },
     {
       key: "agent",
       stage: "Stage 06",
-      title: "Agent / RAG / MCP",
+      title: "Agent",
       description: "从检索增强到工具调用与多智能体协作，进入 AI 系统真正开始具备行动性的阶段。",
-      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/master/07_Agent-RAG-MCP",
+      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/master/07_Agent",
       linkLabel: "查看模块",
       tags: ["Agent", "RAG", "MCP"]
     },
     {
       key: "systems",
       stage: "Stage 07",
-      title: "系统部署",
+      title: "大模型推理与部署",
       description: "关注推理部署、架构拆分、并行策略与工程可用性，让模型从 demo 走向真实系统。",
-      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/master/09_%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2%E7%B3%BB%E5%88%97",
+      link: "https://github.com/AI-mzq/From-Zero-to-AGI/tree/master/09_%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86%E4%B8%8E%E9%83%A8%E7%BD%B2",
       linkLabel: "查看模块",
       tags: ["推理部署", "并行策略", "系统工程"]
     },

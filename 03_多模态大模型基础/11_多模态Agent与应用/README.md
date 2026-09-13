@@ -717,7 +717,7 @@ Agent 只检查接口返回，没有验证真实结果。
 ## 关联阅读
 
 - [多模态评测](../10_多模态评测/README.md)
-- [Agent / RAG / MCP](../../07_Agent-RAG-MCP/README.md)
+- [Agent](../../07_Agent/README.md)
 
 ---
 

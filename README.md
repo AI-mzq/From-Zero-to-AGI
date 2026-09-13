@@ -11,7 +11,7 @@
 [![License](https://img.shields.io/github/license/AI-mzq/From-Zero-to-AGI?style=flat-square&label=License)](LICENSE)
 [![公众号](https://img.shields.io/badge/公众号-魔方AI空间-07C160?style=flat-square&logo=wechat&logoColor=white)](./docs/imgs/魔方AI空间.png)
 
-[开始学习](02_LLM基础入门/README.md) · [多模态路线](03_多模态基础入门/README.md) · [项目实战](10_项目实战) · [项目主页](https://ai-mzq.github.io/From-Zero-to-AGI/)
+[开始学习](02_大语言模型基础/README.md) · [多模态路线](03_多模态大模型基础/README.md) · [项目实战](10_项目实战) · [项目主页](https://ai-mzq.github.io/From-Zero-to-AGI/)
 
 如果这个项目对你有帮助，欢迎点亮 **Star**。你的支持是持续更新的重要动力。
 
@@ -45,7 +45,7 @@ AI 技术发展很快，但学习资料往往分散在论文、博客、课程�
 先通过核心内容地图定位学习方向，再进入对应章节系统学习；每个板块同时提供公众号深度阅读和相关项目实践，帮助你从概念理解走向工程落地。
 
 > [!TIP]
-> 本仓库以大模型及其延伸方向为主。具备 Python 和神经网络基础后，建议从 [LLM 基础入门](02_LLM基础入门/README.md) 开始；已经掌握 Transformer，可以直接进入 [多模态基础入门](03_多模态基础入门/README.md)、Agent 或具身智能方向。
+> 本仓库以大模型及其延伸方向为主。具备 Python 和神经网络基础后，建议从 [大语言模型基础](02_大语言模型基础/README.md) 开始；已经掌握 Transformer，可以直接进入 [多模态大模型基础](03_多模态大模型基础/README.md)、AI 智能体或具身智能方向。
 
 ## 🛤️ 推荐学习路线
 
@@ -81,14 +81,14 @@ Agent / RAG / MCP
 | 板块 | 核心知识 | 状态 | 板块入口 |
 | --- | --- | :---: | --- |
 | 01. AI 入门基础 | Python、机器学习、深度学习、NLP、CV、目标检测 | 持续更新 | [进入板块](01_AGI入门基础) |
-| 02. LLM 基础入门 | Token、Embedding、Transformer、Attention、MoE、预训练、微调、RLHF、推理、评测 | 已上线 | [进入板块](02_LLM基础入门/README.md) |
-| 03. 多模态基础入门 | 视觉编码器、连接器、VLM、统一多模态、视频、音频、多模态训练与评测 | 已上线 | [进入板块](03_多模态基础入门/README.md) |
-| 04. AI 绘画 | Diffusion、DiT、LoRA、ControlNet、图像编辑、一致性生成 | 构建中 | [进入板块](04_AI绘画基础入门/README.md) |
-| 05. AI 视频 | 视频扩散、时空建模、可控生成、长视频、视频理解、音视频联合生成 | 持续更新 | [进入板块](05_AI视频基础入门/README.md) |
-| 06. 数字人 | 肖像动画、语音驱动、口型同步、动作控制、情感表达 | 构建中 | [进入板块](06_数字人基础入门/README.md) |
-| 07. Agent / RAG / MCP | 检索、工具调用、MCP、A2A、Skills、Memory、Harness、Agentic RL | 构建中 | [进入板块](07_Agent-RAG-MCP/README.md) |
+| 02. 大语言模型基础 | Token、Embedding、Transformer、Attention、MoE、预训练、微调、RLHF、推理、评测 | 已上线 | [进入板块](02_大语言模型基础/README.md) |
+| 03. 多模态大模型基础 | 视觉编码器、连接器、VLM、统一多模态、视频、音频、多模态训练与评测 | 已上线 | [进入板块](03_多模态大模型基础/README.md) |
+| 04. AI 图像生成 | Diffusion、DiT、LoRA、ControlNet、图像编辑、一致性生成 | 构建中 | [进入板块](04_AI图像生成/README.md) |
+| 05. AI 视频生成 | 视频扩散、时空建模、可控生成、视频编辑、长视频、音视频联合生成 | 持续更新 | [进入板块](05_AI视频生成/README.md) |
+| 06. 数字人 | 肖像动画、语音驱动、口型同步、动作控制、情感表达 | 构建中 | [进入板块](06_数字人/README.md) |
+| 07. Agent | 检索、工具调用、MCP、A2A、Skills、Memory、Harness、Agentic RL | 构建中 | [进入板块](07_Agent/README.md) |
 | 08. 具身智能 | VLM、VLN、VLA、世界模型、机器人数据、仿真、控制与评测 | 构建中 | [进入板块](08_具身智能/README.md) |
-| 09. 大模型部署 | 量化、推理框架、并行策略、KV Cache、PD 分离、Serving | 构建中 | [进入板块](09_大模型部署系列/README.md) |
+| 09. 大模型推理与部署 | 量化、推理框架、并行策略、KV Cache、PD 分离、Serving | 构建中 | [进入板块](09_大模型推理与部署/README.md) |
 | 10. 项目实战 | Transformer、文生视频、多模态系统、Agent 与具身部署 | 持续更新 | [进入板块](10_项目实战) |
 
 ### 🌱 01. AI 入门基础
@@ -117,7 +117,7 @@ Python → 机器学习 → 神经网络 → NLP / CV → Transformer 前置知�
 
 </details>
 
-### 🧠 02. LLM 基础入门
+### 🧠 02. 大语言模型基础
 
 从文本如何变成 Token 开始，逐步理解现代大语言模型的架构、训练、对齐、推理和评测。
 
@@ -130,9 +130,9 @@ LLM 概念 → Token / Embedding → Transformer → Attention → 位置编码
 
 **板块内容**
 
-- [LLM 完整学习路线与 14 章目录](02_LLM基础入门/README.md)
+- [大语言模型完整学习路线与 14 章目录](02_大语言模型基础/README.md)
 - [从零实现 Transformer](10_项目实战/From-Zero-to-Transformer/README.md)
-- [RLHF：PPO、DPO、GRPO、DAPO 与 GSPO](02_LLM基础入门/10_RLHF/README.md)
+- [RLHF：PPO、DPO、GRPO、DAPO 与 GSPO](02_大语言模型基础/10_RLHF/README.md)
 
 <details>
 <summary><strong>延伸阅读｜魔方AI空间</strong></summary>
@@ -146,7 +146,7 @@ LLM 概念 → Token / Embedding → Transformer → Attention → 位置编码
 
 </details>
 
-### 🌐 03. 多模态基础入门
+### 🌐 03. 多模态大模型基础
 
 理解文本、图像、视频和音频如何被编码、对齐、生成，并进一步连接到推理和行动系统。
 
@@ -159,9 +159,9 @@ LLM 概念 → Token / Embedding → Transformer → Attention → 位置编码
 
 **板块内容**
 
-- [多模态完整学习路线与 14 个专题](03_多模态基础入门/README.md)
-- [多模态主题、论文与模型索引](03_多模态基础入门/INDEX.md)
-- [多模态术语表](03_多模态基础入门/GLOSSARY.md)
+- [多模态完整学习路线与 14 个专题](03_多模态大模型基础/README.md)
+- [多模态主题、论文与模型索引](03_多模态大模型基础/INDEX.md)
+- [多模态术语表](03_多模态大模型基础/GLOSSARY.md)
 
 <details>
 <summary><strong>延伸阅读｜魔方AI空间</strong></summary>
@@ -174,7 +174,7 @@ LLM 概念 → Token / Embedding → Transformer → Attention → 位置编码
 
 </details>
 
-### 🎨 04. AI 绘画与视觉生成
+### 🎨 04. AI 图像生成
 
 从扩散模型基础出发，理解文生图、图像编辑、可控生成、个性化微调和统一视觉生成。
 
@@ -185,7 +185,7 @@ Diffusion → Latent Diffusion → DiT → 文生图 → LoRA / ControlNet
 → 图像编辑 → 主体与风格一致性 → 统一生成模型
 ```
 
-**板块入口**：[AI 绘画基础入门](04_AI绘画基础入门/README.md)
+**板块入口**：[AI 图像生成](04_AI图像生成/README.md)
 
 <details>
 <summary><strong>延伸阅读｜魔方AI空间</strong></summary>
@@ -197,20 +197,20 @@ Diffusion → Latent Diffusion → DiT → 文生图 → LoRA / ControlNet
 
 </details>
 
-### 🎬 05. AI 视频生成与理解
+### 🎬 05. AI 视频生成
 
-系统学习视频的时空表示、扩散与 Transformer 架构、可控生成、长视频叙事、视频理解及音视频联合建模。
+系统学习视频的时空表示、扩散与 Transformer 架构、可控生成、视频编辑、长视频叙事及音视频联合建模。
 
 **核心知识节点**
 
 ```text
 视频表示 → Video Diffusion / DiT → 时空建模 → 条件与运动控制
-→ 长视频与多镜头 → 视频理解 → 音视频联合生成 → 评测与实践
+→ 视频编辑 → 长视频与多镜头 → 音视频联合生成 → 评测与实践
 ```
 
 **板块内容**
 
-- [AI 视频基础入门](05_AI视频基础入门/README.md)
+- [AI 视频生成](05_AI视频生成/README.md)
 - [从零实现小型文生视频模型](10_项目实战/From-Zero-to-small-T2V/README.md)
 
 <details>
@@ -225,7 +225,7 @@ Diffusion → Latent Diffusion → DiT → 文生图 → LoRA / ControlNet
 
 </details>
 
-### 🎭 06. 数字人与音频交互
+### 🎭 06. 数字人
 
 关注人物外观、声音、表情与动作之间的跨模态驱动，理解数字人从“会说话”到“自然表达”的完整链路。
 
@@ -236,7 +236,7 @@ Diffusion → Latent Diffusion → DiT → 文生图 → LoRA / ControlNet
 → 人体视频生成 → 实时交互 → 数字人系统
 ```
 
-**板块入口**：[数字人基础入门](06_数字人基础入门/README.md)
+**板块入口**：[数字人](06_数字人/README.md)
 
 <details>
 <summary><strong>延伸阅读｜魔方AI空间</strong></summary>
@@ -249,7 +249,7 @@ Diffusion → Latent Diffusion → DiT → 文生图 → LoRA / ControlNet
 
 </details>
 
-### 🧩 07. Agent / RAG / MCP
+### 🧩 07. Agent
 
 让大模型从“回答问题”走向“检索信息、调用工具、积累经验并持续完成任务”。
 
@@ -260,7 +260,7 @@ RAG → Agent → 工具调用 → MCP / A2A → Skills → Memory
 → Context Engineering → Harness → Loop Engineering → Agentic RL → Multi-Agent
 ```
 
-**板块入口**：[Agent / RAG / MCP](07_Agent-RAG-MCP/README.md)
+**板块入口**：[Agent](07_Agent/README.md)
 
 <details open>
 <summary><strong>延伸阅读｜魔方AI空间</strong></summary>
@@ -301,7 +301,7 @@ VLM → VLN / VA / VLA → 机器人策略 → 世界模型 → 机器人数据
 
 </details>
 
-### 🚀 09. 大模型部署与系统工程
+### 🚀 09. 大模型推理与部署
 
 关注模型如何从研究和 Demo 走向稳定、低成本、可扩展的生产系统。
 
@@ -312,7 +312,7 @@ VLM → VLN / VA / VLA → 机器人策略 → 世界模型 → 机器人数据
 → DP / TP / PP / CP / EP / SP → PD 分离 → 分布式 Serving → 监控与评测
 ```
 
-**板块入口**：[大模型部署系列](09_大模型部署系列/README.md)
+**板块入口**：[大模型推理与部署](09_大模型推理与部署/README.md)
 
 <details>
 <summary><strong>延伸阅读｜魔方AI空间</strong></summary>

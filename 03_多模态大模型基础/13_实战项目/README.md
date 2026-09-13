@@ -584,9 +584,9 @@ class Tool:
 - [论文综述](../12_论文综述/README.md)
 - [多模态评测](../10_多模态评测/README.md)
 - [多模态 Agent 与应用](../11_多模态Agent与应用/README.md)
-- [Agent / RAG / MCP](../../07_Agent-RAG-MCP/README.md)
+- [Agent](../../07_Agent/README.md)
 
 ---
 
 **上一章：**[论文综述](../12_论文综述/README.md)  
-**返回：**[多模态基础入门](../README.md)
+**返回：**[多模态大模型基础](../README.md)

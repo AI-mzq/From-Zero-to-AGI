@@ -308,8 +308,8 @@ LLM 在复杂数学、严格逻辑、长链路规划上仍可能出错，需要�
 | 预训练 | 在海量文本上学习语言和知识 | [LLM 预训练](../08_预训练/README.md) |
 | SFT | 让模型学会遵循指令 | [指令微调](../09_指令微调/README.md) |
 | RLHF | 让模型更符合人类偏好 | [RLHF](../10_RLHF/README.md) |
-| RAG | 用外部知识增强模型回答 | [Agent/RAG/MCP](../../07_Agent-RAG-MCP/README.md) |
-| Agent | 让模型具备规划和工具调用能力 | [Agent/RAG/MCP](../../07_Agent-RAG-MCP/README.md) |
+| RAG | 用外部知识增强模型回答 | [Agent](../../07_Agent/README.md) |
+| Agent | 让模型具备规划和工具调用能力 | [Agent](../../07_Agent/README.md) |
 
 ## 学习建议
 

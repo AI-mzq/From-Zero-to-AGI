@@ -1,4 +1,4 @@
-# 02_LLM 基础入门
+# 02_大语言模型基础
 
 > 从 Token 到 Transformer，从预训练到对齐，从 Prompt 到 Agent 应用前置知识，系统建立大语言模型的核心知识框架。
 
@@ -56,7 +56,7 @@ LLM 基本概念
 | 12. [Prompt 工程](12_Prompt工程/README.md) | 如何更稳定地引导 LLM 完成任务？ | — |
 | 13. [LLM 评测](13_LLM评测/README.md) | 如何判断一个模型真的更强？ | — |
 | 14. [论文综述](14_论文综述/README.md) | 哪些论文适合作为 LLM 入门主线？ | — |
-| 15. LLM 应用前置知识 | RAG、Agent、Tool Use、MCP 和 LLM 如何连接？ | [Agent/RAG/MCP 板块](../07_Agent-RAG-MCP/README.md) |
+| 15. LLM 应用前置知识 | RAG、Agent、Tool Use、MCP 和 LLM 如何连接？ | [Agent](../07_Agent/README.md) |
 | 16. 实战项目 | 如何从零实现一个小型 Transformer / GPT？ | [从头开始编写 LLM 代码](https://blog.csdn.net/m_aigc2022/article/details/140086462?spm=1001.2014.3001.5501) |
 
 ## 0. 板块导读
@@ -244,7 +244,7 @@ Prompt Engineering 是使用 LLM 的基础技能，也是理解 Agent 和 RAG �
 
 ## 15. LLM 应用前置知识
 
-本章和后续 [Agent/RAG/MCP](../07_Agent-RAG-MCP/README.md) 板块衔接。
+本章和后续 [Agent](../07_Agent/README.md) 板块衔接。
 
 - Function Calling
 - Tool Use
@@ -285,7 +285,7 @@ Prompt Engineering 是使用 LLM 的基础技能，也是理解 Agent 和 RAG �
 - 将已发布文章沉淀为仓库内 Markdown 文档，形成可离线阅读的知识库。
 - 增加 tiny GPT、Tokenizer、Self-Attention 等最小实现代码。
 - 增加 LLM 综述论文阅读清单和经典论文导读。
-- 与 `07_Agent-RAG-MCP`、`09_大模型部署系列` 建立交叉索引。
+- 与 `07_Agent`、`09_大模型推理与部署` 建立交叉索引。
 
 ---
 
