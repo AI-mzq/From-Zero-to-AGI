@@ -44,20 +44,3 @@
 | InternVL | 开源 VLM、OCR、文档理解 | [05_视觉语言模型VLM](05_视觉语言模型VLM/README.md) |
 | Gemini / GPT-4V / GPT-4o | 统一多模态能力、实时交互 | [06_多模态生成模型](06_多模态生成模型/README.md) |
 | Whisper / Qwen-Audio | 语音识别、音频理解 | [08_音频语音多模态](08_音频语音多模态/README.md) |
-
-## 模板索引
-
-- [章节模板](templates/chapter-template.md)
-- [论文笔记模板](templates/paper-note-template.md)
-- [模型卡模板](templates/model-card-template.md)
-- [实验记录模板](templates/experiment-log-template.md)
-
-## 维护检查清单
-
-新增内容时建议检查：
-
-- 是否放入正确主题目录。
-- 是否更新本索引。
-- 是否补充外部论文/项目链接。
-- 是否说明适用场景和局限性。
-- 是否与 `02_LLM基础入门`、`05_AI视频基础入门`、`07_Agent-RAG-MCP` 建立交叉链接。

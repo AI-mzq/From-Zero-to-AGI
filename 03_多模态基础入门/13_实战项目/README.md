@@ -488,7 +488,7 @@ class Tool:
 
 ## 统一实验记录
 
-每次实验使用 [实验记录模板](../templates/experiment-log-template.md)，至少记录：
+每次实验至少记录：
 
 - 日期和负责人
 - 代码提交或版本
@@ -584,7 +584,6 @@ class Tool:
 - [论文综述](../12_论文综述/README.md)
 - [多模态评测](../10_多模态评测/README.md)
 - [多模态 Agent 与应用](../11_多模态Agent与应用/README.md)
-- [实验记录模板](../templates/experiment-log-template.md)
 - [Agent / RAG / MCP](../../07_Agent-RAG-MCP/README.md)
 
 ---

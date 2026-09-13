@@ -78,8 +78,6 @@ Agent / RAG / MCP
 
 ## 🗺️ 完整核心内容地图
 
-> 部分方向正在快速构建中，知识地图和公众号精选文章已先行开放。
-
 | 板块 | 核心知识 | 状态 | 板块入口 |
 | --- | --- | :---: | --- |
 | 01. AI 入门基础 | Python、机器学习、深度学习、NLP、CV、目标检测 | 持续更新 | [进入板块](01_AGI入门基础) |
@@ -103,7 +101,7 @@ Agent / RAG / MCP
 Python → 机器学习 → 神经网络 → NLP / CV → Transformer 前置知识
 ```
 
-**板块内容（持续构建中）**
+**板块内容**
 
 - [自然语言处理](01_AGI入门基础/自然语言处理/README.md)
 - [计算机视觉与 YOLO 系列](01_AGI入门基础/计算机视觉/YOLO系列/README.md)
@@ -187,7 +185,7 @@ Diffusion → Latent Diffusion → DiT → 文生图 → LoRA / ControlNet
 → 图像编辑 → 主体与风格一致性 → 统一生成模型
 ```
 
-**板块入口（构建中）**：[AI 绘画基础入门](04_AI绘画基础入门/README.md)
+**板块入口**：[AI 绘画基础入门](04_AI绘画基础入门/README.md)
 
 <details>
 <summary><strong>延伸阅读｜魔方AI空间</strong></summary>
@@ -238,7 +236,7 @@ Diffusion → Latent Diffusion → DiT → 文生图 → LoRA / ControlNet
 → 人体视频生成 → 实时交互 → 数字人系统
 ```
 
-**板块入口（构建中）**：[数字人基础入门](06_数字人基础入门/README.md)
+**板块入口**：[数字人基础入门](06_数字人基础入门/README.md)
 
 <details>
 <summary><strong>延伸阅读｜魔方AI空间</strong></summary>
@@ -262,7 +260,7 @@ RAG → Agent → 工具调用 → MCP / A2A → Skills → Memory
 → Context Engineering → Harness → Loop Engineering → Agentic RL → Multi-Agent
 ```
 
-**板块入口（构建中）**：[Agent / RAG / MCP](07_Agent-RAG-MCP/README.md)
+**板块入口**：[Agent / RAG / MCP](07_Agent-RAG-MCP/README.md)
 
 <details open>
 <summary><strong>延伸阅读｜魔方AI空间</strong></summary>
@@ -288,7 +286,7 @@ VLM → VLN / VA / VLA → 机器人策略 → 世界模型 → 机器人数据
 → 遥操作与示范学习 → 仿真与 Sim-to-Real → 控制 → 评测与部署
 ```
 
-**板块入口（构建中）**：[具身智能](08_具身智能/README.md)
+**板块入口**：[具身智能](08_具身智能/README.md)
 
 <details open>
 <summary><strong>延伸阅读｜魔方AI空间</strong></summary>
@@ -314,7 +312,7 @@ VLM → VLN / VA / VLA → 机器人策略 → 世界模型 → 机器人数据
 → DP / TP / PP / CP / EP / SP → PD 分离 → 分布式 Serving → 监控与评测
 ```
 
-**板块入口（构建中）**：[大模型部署系列](09_大模型部署系列/README.md)
+**板块入口**：[大模型部署系列](09_大模型部署系列/README.md)
 
 <details>
 <summary><strong>延伸阅读｜魔方AI空间</strong></summary>
@@ -354,10 +352,6 @@ VLM → VLN / VA / VLA → 机器人策略 → 世界模型 → 机器人数据
   <img src="./imgs/大模型时间线.png" alt="经典大模型发展时间线" width="900" />
 </div>
 
-## 🔄 持续更新
-
-仓库将围绕大模型主线持续扩充，近期重点建设 Agent / RAG / MCP、具身智能、世界模型与大模型部署等专题。
-
 ## 📬 关注魔方AI空间
 
 「魔方AI空间」长期分享 **LLM、多模态、AI 视频、Agent、具身智能、开源项目与工程实践**。仓库负责沉淀系统知识，公众号同步更新前沿解读与深度文章。
@@ -370,6 +364,14 @@ VLM → VLN / VA / VLA → 机器人策略 → 世界模型 → 机器人数据
 | 飞书知识库 | [AIGCmagic 知识库](https://oizxc9sdhbc.feishu.cn/wiki/FGS5wST0Hiy6xJklyPTcTVOqnAd?from=from_copylink) |
 | 知识星球 | [AIGCmagic 社区](https://wx.zsxq.com/group/48884124114188) |
 | 算法工程师面试面经 | [Interview for Algorithm Engineer](https://github.com/WeThinkIn/AIGC-Interview-Book.git) |
+
+### 加入 AIGCmagic 社区
+
+如果你希望获取更多 AI 前沿资料、深度内容与社区交流，可以扫码加入 AIGCmagic 知识星球。
+
+<div align="center">
+  <img src="./imgs/img2.png" alt="AIGCmagic 社区知识星球与新人优惠券" width="850" />
+</div>
 
 ## 💬 反馈与建议
 

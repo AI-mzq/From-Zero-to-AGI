@@ -39,25 +39,25 @@ LLM 基本概念
 
 ## 目录导航
 
-| 模块 | 核心问题 | 解读链接🔗 | 状态 |
-| --- | --- | --- | --- |
-| 0. 板块导读 | LLM 学习应该从哪里开始？ | [大模型如何工作](https://blog.csdn.net/m_aigc2022/article/details/139785981?spm=1001.2014.3001.5501) | 规划中 |
-| 1. [大语言模型基础概念](01_什么是大语言模型/README.md) | 什么是 LLM？它和传统 NLP 模型有什么区别？ | [什么是大语言模型？](https://blog.csdn.net/m_aigc2022/article/details/139678783?spm=1001.2014.3001.5502) | 已更新 |
-| 2. [Token 与 Embedding](02_Token与Embedding/README.md) | 文本如何变成模型可以计算的向量？ | [Tokens 和 Embeddings](https://blog.csdn.net/m_aigc2022/article/details/140588456?spm=1001.2014.3001.5502) | 已更新 |
-| 3. [Transformer 架构核心](03_Transformer架构/README.md) | Transformer 为什么成为 LLM 的基础架构？ | [Transformer 架构](https://blog.csdn.net/m_aigc2022/article/details/140025423?spm=1001.2014.3001.5501) | 已更新 |
-| 4. [Attention 机制深入解析](04_Attention机制/README.md) | Q、K、V 和注意力分数到底在算什么？ | [手动求解 Transformer](https://blog.csdn.net/m_aigc2022/article/details/140260384?spm=1001.2014.3001.5502) | 已更新 |
-| 5. [位置编码](05_位置编码/README.md) | 模型如何理解 Token 的顺序和距离？ | [详解位置编码](https://mp.weixin.qq.com/s/t5kTS6iOaH3u6TzfpRv3kQ) | 已更新 |
-| 6. [主流 LLM 架构演进](06_主流LLM架构演进/README.md) | GPT、LLaMA、Qwen、DeepSeek 的结构如何演进？ | 待补充 | 已更新 |
-| 7. [MoE 模型](07_MoE模型/README.md) | 为什么大模型开始大量使用混合专家架构？ | [详解 MoE 模型](http://mp.weixin.qq.com/s/qR6ExUarwvL6jbHK5qy_Rg?token=1354273325&lang=zh_CN) | 已更新 |
-| 8. [LLM 预训练](08_预训练/README.md) | 大模型是如何从海量语料中学到能力的？ | 待补充 | 已更新 |
-| 9. [指令微调](09_指令微调/README.md) | 模型如何从“会补全文本”变成“会听指令”？ | 待补充 | 已更新 |
-| 10. [RLHF](10_RLHF/README.md) | PPO、DPO、GRPO 等对齐算法如何演进？ | [RLHF 进化史](http://mp.weixin.qq.com/s/7QrKR2WqjnGAXdV7lwSPUA?token=496007473&lang=zh_CN) | 已更新 |
-| 11. [推理与生成基础](11_推理与生成/README.md) | Temperature、Top-p、KV Cache 分别控制什么？ | 待补充 | 已更新 |
-| 12. [Prompt 工程](12_Prompt工程/README.md) | 如何更稳定地引导 LLM 完成任务？ | 待补充 | 已更新 |
-| 13. [LLM 评测](13_LLM评测/README.md) | 如何判断一个模型真的更强？ | 待补充 | 已更新 |
-| 14. [论文综述](14_论文综述/README.md) | 哪些论文适合作为 LLM 入门主线？ | 待补充 | 已更新 |
-| 15. LLM 应用前置知识 | RAG、Agent、Tool Use、MCP 和 LLM 如何连接？ | [Agent/RAG/MCP 板块](../07_Agent-RAG-MCP/README.md) | 规划中 |
-| 16. 实战项目 | 如何从零实现一个小型 Transformer / GPT？ | [从头开始编写 LLM 代码](https://blog.csdn.net/m_aigc2022/article/details/140086462?spm=1001.2014.3001.5501) | 规划中 |
+| 模块 | 核心问题 | 延伸阅读 |
+| --- | --- | --- |
+| 0. 板块导读 | LLM 学习应该从哪里开始？ | [大模型如何工作](https://blog.csdn.net/m_aigc2022/article/details/139785981?spm=1001.2014.3001.5501) |
+| 1. [大语言模型基础概念](01_什么是大语言模型/README.md) | 什么是 LLM？它和传统 NLP 模型有什么区别？ | [什么是大语言模型？](https://blog.csdn.net/m_aigc2022/article/details/139678783?spm=1001.2014.3001.5502) |
+| 2. [Token 与 Embedding](02_Token与Embedding/README.md) | 文本如何变成模型可以计算的向量？ | [Tokens 和 Embeddings](https://blog.csdn.net/m_aigc2022/article/details/140588456?spm=1001.2014.3001.5502) |
+| 3. [Transformer 架构核心](03_Transformer架构/README.md) | Transformer 为什么成为 LLM 的基础架构？ | [Transformer 架构](https://blog.csdn.net/m_aigc2022/article/details/140025423?spm=1001.2014.3001.5501) |
+| 4. [Attention 机制深入解析](04_Attention机制/README.md) | Q、K、V 和注意力分数到底在算什么？ | [手动求解 Transformer](https://blog.csdn.net/m_aigc2022/article/details/140260384?spm=1001.2014.3001.5502) |
+| 5. [位置编码](05_位置编码/README.md) | 模型如何理解 Token 的顺序和距离？ | [详解位置编码](https://mp.weixin.qq.com/s/t5kTS6iOaH3u6TzfpRv3kQ) |
+| 6. [主流 LLM 架构演进](06_主流LLM架构演进/README.md) | GPT、LLaMA、Qwen、DeepSeek 的结构如何演进？ | — |
+| 7. [MoE 模型](07_MoE模型/README.md) | 为什么大模型开始大量使用混合专家架构？ | [详解 MoE 模型](http://mp.weixin.qq.com/s/qR6ExUarwvL6jbHK5qy_Rg?token=1354273325&lang=zh_CN) |
+| 8. [LLM 预训练](08_预训练/README.md) | 大模型是如何从海量语料中学到能力的？ | — |
+| 9. [指令微调](09_指令微调/README.md) | 模型如何从“会补全文本”变成“会听指令”？ | — |
+| 10. [RLHF](10_RLHF/README.md) | PPO、DPO、GRPO 等对齐算法如何演进？ | [RLHF 进化史](http://mp.weixin.qq.com/s/7QrKR2WqjnGAXdV7lwSPUA?token=496007473&lang=zh_CN) |
+| 11. [推理与生成基础](11_推理与生成/README.md) | Temperature、Top-p、KV Cache 分别控制什么？ | — |
+| 12. [Prompt 工程](12_Prompt工程/README.md) | 如何更稳定地引导 LLM 完成任务？ | — |
+| 13. [LLM 评测](13_LLM评测/README.md) | 如何判断一个模型真的更强？ | — |
+| 14. [论文综述](14_论文综述/README.md) | 哪些论文适合作为 LLM 入门主线？ | — |
+| 15. LLM 应用前置知识 | RAG、Agent、Tool Use、MCP 和 LLM 如何连接？ | [Agent/RAG/MCP 板块](../07_Agent-RAG-MCP/README.md) |
+| 16. 实战项目 | 如何从零实现一个小型 Transformer / GPT？ | [从头开始编写 LLM 代码](https://blog.csdn.net/m_aigc2022/article/details/140086462?spm=1001.2014.3001.5501) |
 
 ## 0. 板块导读
 
@@ -117,7 +117,7 @@ Attention 是 LLM 的关键计算模块，决定了模型如何在上下文中�
 
 ## 5. [位置编码](05_位置编码/README.md)
 
-已更新：[位置编码技术全景解析](05_位置编码/README.md)
+[位置编码技术全景解析](05_位置编码/README.md)
 
 位置编码用于弥补 Transformer 本身不具备顺序感知能力的问题，是理解长上下文模型的重要入口。
 
@@ -178,7 +178,7 @@ MoE 是提升模型容量和训练/推理效率的重要路线，DeepSeek、Mixt
 
 ## 10. [RLHF](10_RLHF/README.md)
 
-已更新：[一文梳理 RLHF 进化史：从 PPO -> DPO -> GRPO -> GSPO](10_RLHF/README.md)
+[一文梳理 RLHF 进化史：从 PPO -> DPO -> GRPO -> GSPO](10_RLHF/README.md)
 
 本模块系统梳理对齐算法的演进路径：
 
