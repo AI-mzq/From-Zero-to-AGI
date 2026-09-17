@@ -363,7 +363,11 @@ VLM → VLN / VA / VLA → 机器人策略 → 世界模型 → 机器人数据
 | 知乎 | [猫先生](https://zhihu.com/people/m_aigc2022) |
 | 飞书知识库 | [AIGCmagic 知识库](https://oizxc9sdhbc.feishu.cn/wiki/FGS5wST0Hiy6xJklyPTcTVOqnAd?from=from_copylink) |
 | 知识星球 | [AIGCmagic 社区](https://wx.zsxq.com/group/48884124114188) |
-| 算法工程师面试面经 | [Interview for Algorithm Engineer](https://github.com/WeThinkIn/AIGC-Interview-Book.git) |
+| 【三年面试五年模拟】面试面经 | [Interview for Algorithm Engineer](https://github.com/WeThinkIn/AIGC-Interview-Book.git) |
+
+<div align="center">
+  <img src="./imgs/魔方AI空间.png" alt="魔方AI空间" width="850" />
+</div>
 
 ### 加入 AIGCmagic 社区
 
