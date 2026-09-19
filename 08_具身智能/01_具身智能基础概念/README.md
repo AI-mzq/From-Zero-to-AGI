@@ -40,7 +40,13 @@
     └── 机器人学、Agent、VLM、VLA 与人形机器人
 ```
 
-![具身智能基础概念知识地图](./images/01-embodied-ai-knowledge-map.png)
+上述内容可以进一步整理为图 1 所示的知识地图，后续各节都围绕这五类关系展开。
+
+<div align="center">
+<img src="./images/01-embodied-ai-knowledge-map.png" alt="具身智能基础概念知识地图" />
+<br>
+<sub>图 1｜具身智能基础概念知识地图</sub>
+</div>
 
 | 知识模块 | 核心问题 | 关键概念 |
 | --- | --- | --- |
@@ -59,7 +65,13 @@
 
 一个只处理文本的模型，可以忽略自己的尺寸、重量、摩擦、关节范围和反应延迟；机器人不能。它能看见什么、够到哪里、以多快速度移动、碰撞会造成什么后果，都受到本体和环境约束。
 
-![身体塑造具身智能的感知、动作与交互经验](./images/02-body-shapes-intelligence.png)
+身体对智能的影响不是抽象附加项，而是会直接改变感知范围、动作边界和交互反馈，如图 2 所示。
+
+<div align="center">
+<img src="./images/02-body-shapes-intelligence.png" alt="身体塑造具身智能的感知、动作与交互经验" />
+<br>
+<sub>图 2｜身体塑造智能体的感知范围、动作边界与交互反馈</sub>
+</div>
 
 身体至少改变了四件事：
 
@@ -117,7 +129,13 @@
 环境 <──物理作用── 本体 <──动作── 智能体
 ```
 
-![环境、本体与智能体之间的观测和动作闭环](./images/03-agent-environment-interaction-loop.png)
+由此，环境、本体和智能体形成图 3 所示的双向交互关系：观测由环境经本体进入智能体，动作再经本体作用于环境。
+
+<div align="center">
+<img src="./images/03-agent-environment-interaction-loop.png" alt="环境、本体与智能体之间的观测和动作闭环" />
+<br>
+<sub>图 3｜环境、本体与智能体之间的观测—动作闭环</sub>
+</div>
 
 同一个决策模型换到不同机器人上，可能因为相机视角、关节数量、夹爪结构、控制频率或动作单位不同而无法直接工作。这也是后续“跨本体迁移”成为独立问题的原因。
 
@@ -133,7 +151,13 @@
 - 机器人的当前相机观测中，杯子可能完全不可见。
 - 如果机器人记得杯子此前的位置，它可以结合历史观测形成一种内部估计。
 
-![真实状态与当前观测的区别，以及主动换视角获得新观测](./images/04-observation-vs-state.png)
+如图 4 所示，杯子始终存在，但机器人获得的观测会随视角和遮挡发生变化；主动换个视角，本身也是一种获取信息的动作。
+
+<div align="center">
+<img src="./images/04-observation-vs-state.png" alt="真实状态与当前观测的区别，以及主动换视角获得新观测" />
+<br>
+<sub>图 4｜杯子始终存在，观测随视角和遮挡发生变化</sub>
+</div>
 
 | 概念 | 含义 | 是否一定能直接获得？ |
 | --- | --- | :---: |
@@ -201,7 +225,13 @@ s_{t+1} \sim T(\cdot \mid s_t, a_t)
 | 对模型误差的处理 | 容易累积 | 可以逐步修正 |
 | 典型风险 | 抓偏后仍继续移动 | 反馈延迟或频率不足也会失效 |
 
-![开环执行抓空与闭环反馈修正的对比](./images/05-open-vs-closed-loop.png)
+图 5 用同一个杯子发生位置偏差的任务展示了这种区别：开环系统继续执行旧轨迹而抓空，闭环系统则根据新观测修正轨迹。
+
+<div align="center">
+<img src="./images/05-open-vs-closed-loop.png" alt="开环执行抓空与闭环反馈修正的对比" />
+<br>
+<sub>图 5｜开环执行与闭环反馈修正的对比</sub>
+</div>
 
 抓取杯子的闭环可以写成：
 
@@ -370,7 +400,7 @@ VLA 主要解决多模态输入到动作输出的策略建模问题。机器人�
 - [AI Habitat：What is Embodied AI?](https://aihabitat.org/)
 - [Habitat Lab：Embodied Task](https://aihabitat.org/docs/habitat-lab/habitat.core.embodied_task.html)
 
-## 深度阅读｜魔方AI空间
+## 深度阅读｜[魔方AI空间](../../imgs/魔方AI空间.png)
 
 - [万字综述：从基础概念到大模型赋能，入门具身智能](https://mp.weixin.qq.com/s/nZw1K5W0d8APJu-Yr9f7vQ)
 - [一文讲透 2026 年具身智能技术栈：VLM、VLA、VLN、世界模型](https://mp.weixin.qq.com/s/74Ph9n5shGDgMQlAIkGYdg)
