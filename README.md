@@ -88,7 +88,7 @@ Agent / RAG / MCP
 | 06. 数字人 | 肖像动画、语音驱动、口型同步、动作控制、情感表达 | 构建中 | [进入板块](06_数字人/README.md) |
 | 07. Agent | 检索、工具调用、MCP、A2A、Skills、Memory、Harness、Agentic RL | 构建中 | [进入板块](07_Agent/README.md) |
 | 08. 具身智能 | VLM、VLN、VLA、世界模型、机器人数据、仿真、控制与评测 | 构建中 | [进入板块](08_具身智能/README.md) |
-| 09. 大模型推理与部署 | 量化、推理框架、并行策略、KV Cache、PD 分离、Serving | 构建中 | [进入板块](09_大模型推理与部署/README.md) |
+| 09. 大模型推理与部署 | 推理指标、KV Cache、推理引擎、量化、并行、Serving、GPU 与集群 | 持续更新 | [进入板块](09_大模型推理与部署/README.md) |
 | 10. 项目实战 | Transformer、文生视频、多模态系统、Agent 与具身部署 | 持续更新 | [进入板块](10_项目实战) |
 
 ### 🌱 01. AI 入门基础
